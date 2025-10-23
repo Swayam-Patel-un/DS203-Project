@@ -1,0 +1,7 @@
+=>Make sure your python environment has the following modules before running the main file
+1. streamlit (imported as st)
+2.urllib.parse
+3.json
+4. re
+
+=> use the command "streamlit run main.py"
