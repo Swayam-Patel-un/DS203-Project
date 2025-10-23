@@ -1,182 +1,99 @@
 # DS203 Project: Session Summary Analysis & Search
 
-This project is a comprehensive data science pipeline built to solve an unsupervised learning problem: recovering lost associations for a jumbled set of lecture summaries (Submitted by the students throughout the course). The goal is to take a single file of unlabeled summaries, group them into their respective lecture "sessions," and build analytical tools on top of these discovered groupings.
+### Introduction
 
-The final output includes a keyword-based search engine to find the most relevant sessions and their top summaries, and a visualization dashboard for exploring the session clusters.
+This repository contains the complete data science pipeline for a project focused on unsupervised learning and natural language processing. The project addresses the challenge of organizing and analyzing a large, unlabeled corpus of text summaries.
+
+The pipeline proceeds from raw text data through cleaning, advanced vectorization, unsupervised clustering to identify latent topics, and finally, ranking and retrieval. The end products include a set of organized and ranked summaries, a generated representative summary for each topic, and a functional keyword-based search engine to retrieve the most relevant information.
+
+### Problem Statement
+
+The project was initiated with a dataset of jumbled-up session summaries from a data science course. The primary association between each summary and its corresponding lecture session was lost.
+
+The objective is to apply a systematic data science methodology to:
+
+1. Re-establish the connection between summaries and sessions by grouping semantically similar summaries.
+
+2. Compare different text featurization methods to find the most effective one for this task.
+
+3. Rank the summaries within each identified session based on their relevance and detail.
+
+4. Create a representative summary for each session.
+
+5. Build a simple, interactive application that allows a user to find the most relevant session and its top 3 summaries based on a keyword query.
 
 ### Methodology
 
-1. Exploratory Data Analysis (EDA)
+The project is structured as a multi-step pipeline, with each stage feeding into the next.
 
-2. Text Vectorization (Featurization)
+1. Exploratory Data Analysis and Pre-processing
 
-3. Clustering (Session Recovery)
+  * Input: Session-Summary-for-E6-project.xlsx - Data.csv
 
-4. Generative Cluster Summarization
+  * Process: The raw text summaries were loaded and subjected to standard NLP pre-processing steps. This included:
 
-5. Intra-Cluster Summary Ranking
+    * Conversion to lowercase.
 
-Applications & Results
+    * Removal of punctuation, numerical digits, and special characters.
 
-Application 1: Cluster Visualization Dashboard
+    * Tokenization of summaries into individual words.
 
-Application 2: Keyword Search Engine
+    * Removal of common English stop words.
 
-How to Run
+    * Lemmatization to reduce words to their base or root form.
 
-Repository Structure
+  * Output: A cleaned DataFrame saved as processed_df.csv.
 
-flowchart-project-pipeline Project Pipeline
+2. Text Featurization (Vectorization)
 
-The core logic of this project follows a multi-stage NLP and machine learning pipeline:
+Two distinct methods were evaluated to convert the cleaned text into numerical vectors:
 
-Raw Data (.csv) → 1. EDA & Text Pre-processing → 2. Text Vectorization (Jina & Doc2Vec) → 3. K-Means Clustering → 4. Generative Summary (API) → 5. Summary Ranking (Cosine Similarity) → 6. Visualization & Search App
+* Method A (Doc2Vec): A Doc2Vec (Paragraph Vector) model was trained from scratch using the gensim library. This involved extensive hyperparameter tuning (as seen in the doc2vec_opt_... notebooks) to optimize for vector size, context window, and the training algorithm (DM vs. DBOW).
 
-🔬 Technical Deep Dive
+* Method B (Transformer Embeddings): A state-of-the-art, pre-trained transformer model, jina-embeddings-v2-base-en, was used. This model is specifically designed for high-performance semantic retrieval and clustering.
 
-This section details the models, algorithms, and key decisions made at each stage of the project.
+Selection: The Jina embeddings were selected for the final pipeline due to their superior performance in capturing semantic meaning, which is critical for clustering. The resulting vectors were stored in jina_summary_embeddings.csv.
 
-1. Exploratory Data Analysis (EDA)
+3. Session Recovery (Clustering)
 
-File: Code/1_Exploratory_Data_Analysis/EDA.ipynb
+* Algorithm: K-Means Clustering
 
-Libraries: pandas, nltk, matplotlib, seaborn
+* Process: The K-Means algorithm was applied to the high-dimensional Jina embeddings. To determine the optimal number of clusters (k), the Elbow Method and Silhouette Score were analyzed.
 
-Process:
+* Result: An optimal k=30 was identified, indicating that the dataset represents 30 distinct lecture sessions.
 
-The raw data from Session-Summary-for-E6-project.xlsx - Data.csv was loaded.
+* Output:
 
-Standard text pre-processing was performed using nltk:
+  * clustered_summaries_k30.csv: The original summaries with their new cluster label (session ID).
 
-Converted all summaries to lowercase.
-
-Removed punctuation, special characters, and numbers.
-
-Tokenized summaries into individual words.
-
-Removed common English stop words.
-
-Applied lemmatization to reduce words to their root form (e.g., "running" → "run").
-
-The distribution of summary lengths (word count) was analyzed to understand the data's characteristics.
-
-Output: A cleaned processed_df.csv was generated, which serves as the input for the vectorization stage.
-
-2. Text Vectorization (Featurization)
-
-As per the project requirements, two distinct featurization methods were explored.
-
-Method A: Doc2Vec (gensim)
-
-Files: Code/2_Vectorizating_Summaries/doc2vec/
-
-Process: A Doc2Vec (Paragraph Vector) model was trained from scratch on the processed summary corpus. This model learns a fixed-length vector representation for variable-length texts.
-
-Hyperparameter Tuning: Extensive optimization was performed to find the best model parameters, as seen in the doc2vec_opt_...ipynb notebooks. Key parameters tuned include:
-
-dm=1 (Distributed Memory) vs. dm=0 (Distributed Bag of Words).
-
-vector_size: The dimensionality of the embedding.
-
-window: The context window size.
-
-Result: A final model, doc2vec_300d_w70_dm1_e10000.model, was trained with 300 dimensions, a window size of 70, and 10,000 epochs.
-
-Method B (Selected): Jina AI Embeddings
-
-Files: Code/2_Vectorizating_Summaries/jina/jina_vectorizing_summaries.ipynb
-
-Process: This approach utilized a state-of-the-art, pre-trained transformer model, jina-embeddings-v2-base-en. This model is specifically designed to create high-quality, semantically-rich embeddings for retrieval and clustering tasks.
-
-Each processed summary was fed into the Jina model to obtain a dense vector embedding.
-
-Output: The resulting embeddings were saved to jina_summary_embeddings.csv. These embeddings were chosen for the final clustering step due to their superior semantic representation.
-
-3. Clustering (Session Recovery)
-
-File: Code/3_Clustering_Summaries/jina_kmeans.ipynb
-
-Algorithm: K-Means Clustering (from scikit-learn)
-
-Process:
-
-The high-dimensional Jina embeddings were used as the input features for the K-Means algorithm.
-
-The Elbow Method and Silhouette Score were used to determine the optimal number of clusters (k).
-
-Key Result: An optimal k=30 was identified, indicating that the jumbled summaries likely belong to 30 distinct lecture sessions.
-
-Output:
-
-clustered_summaries_k30.csv: The original summaries with their new cluster label (session ID).
-
-cluster_centroids_k30.csv: The 30 centroid vectors, each representing the "average" topic of a session.
+  * cluster_centroids_k30.csv: The 30 centroid vectors, each representing the semantic center of a topic.
 
 4. Generative Cluster Summarization
 
-Files: Code/4_Cluster_Representative_Summaries/api_call.ipynb, cluster_rep_summary_generation.py
+To create a high-quality, human-readable label for each of the 30 clusters, a generative AI model was used.
 
-Process: Instead of simply picking one summary to represent a cluster, a more sophisticated approach was used.
+* Process: For each cluster, all constituent summaries were concatenated into a single large text block. This text was then passed to a generative AI API (e.g., Gemini) with a prompt to generate a single, concise summary capturing the main themes.
 
-For each of the 30 clusters, all summaries belonging to it were concatenated.
-
-This large block of text was fed to a Generative AI API (e.g., Gemini or OpenAI).
-
-The model was prompted to "generate a concise, representative summary that captures the main topics of the following text."
-
-Output: Cluster_Representative_Summaries.csv was created, containing the 30 cluster IDs and their corresponding high-quality, AI-generated representative titles/summaries.
+* Output: Cluster_Representative_Summaries.csv, which maps each cluster ID to its new, generated summary.
 
 5. Intra-Cluster Summary Ranking
 
-File: Code/6_Ranking_Summaries_Within_a_Cluster/summary_ranking.ipynb
+To identify the "best" summaries within each session, a ranking system was implemented.
 
-Method: Cosine Similarity
+* Method: Cosine Similarity
 
-Process:
+* Process: Within each of the 30 clusters, the Jina embedding for every individual summary was compared to the cluster's centroid vector. The resulting cosine similarity score (ranging from 0 to 1) represents how "central" or "on-topic" that summary is.
 
-To rank summaries within each cluster, each summary's Jina vector was compared to its cluster's centroid vector (from cluster_centroids_k30.csv).
+* Output:
 
-The cosine similarity score was calculated for every summary, measuring how "on-topic" or "central" it is to the session's main theme.
+ * clustered_ranked_summaries.json: A complete JSON file of all clusters, each containing its summaries ranked by similarity score.
 
-Summaries within each of the 30 clusters were then ranked from highest to lowest similarity.
+ * top3_summaries_app_data.json: A smaller, pre-processed file containing only the top 3 ranked summaries for each cluster, designed for use in the final application.
 
-Output:
+6. Search Application
 
-clustered_ranked_summaries.json: A complete JSON file of all clusters and their ranked summaries.
-
-top3_summaries_app_data.json: A-pre-processed JSON file containing only the top 3 summaries for each cluster, used directly by the search app.
-
-Applications & Results
-
-Application 1: Cluster Visualization Dashboard
-
-File: Code/5_Cluster_Visualization/vizualization_app.py
-
-Framework: Streamlit
-
-Description: A simple web application that visualizes the 30 discovered sessions. The app likely features:
-
-A bubble chart where each bubble is a session, sized by the number of summaries or keywords.
-
-Interactive word clouds that update when a user clicks on a session bubble, showing the most important terms for that topic.
-
-Application 2: Keyword Search Engine
-
-Files: Code/7_Summary_Search_App/main.py, search_engine.py
-
-Framework: Python (likely a console application)
-
-Description: This is the final deliverable, providing a simple search interface for users.
+A final application was built to provide a simple search interface for the data.
 
 Logic:
 
-A user enters a list of keywords (e.g., "python, loops, data structures").
-
-The search_engine.py module vectorizes this keyword query using the same Jina model used for the summaries.
-
-This query vector is compared against the 30 stored cluster centroid vectors using cosine similarity.
-
-The cluster with the highest similarity score is identified as the "most relevant session."
-
-The application then fetches the AI-generated representative summary for that session (from Cluster_Representative_Summaries.csv) and the top 3 student-written summaries (from top3_summaries_app_data.json) and displays them to the user.
-
+The user provides a set of keywords. -> The application vectorizes this keyword query using the same Jina model. -> This query vector is compared against all 30 cluster centroid vectors using cosine similarity. -> The cluster with the highest similarity score is identified as the most relevant session. -> The application retrieves and displays the AI-generated representative summary for that session and the top 3 student-written summaries.
