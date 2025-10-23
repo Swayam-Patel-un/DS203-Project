@@ -1,0 +1,847 @@
+Found 53 summary pairs with cosine similarity ≥ 0.97:
+
+👉Pair 1: (Index 300, Index 484) — Similarity: 1.0000
+📌Summary 300: we started by discussing the meaning of statistical significance. we discussed that if our value of beta lies within the 95% confidence interval, it means that our value depends on the sample we chose. if we chose another sample, the value could be different. so, we arrived at the conclusion that the value is not statistically significant; it is by chance. and if 0 is present in our interval, then beta can be zero by chance. however, if our value is outside that 95% interval, it means it is not by chance”it is statistically significant. for that, our p-value must be very low, allowing us to reject the null hypothesis that beta is zero. this applies to linear regression.
+
+then we examined multiple linear regression (mlr), where we discussed different statistical parameters obtained using a spreadsheet. we analyzed the significance of each feature by looking at its coefficient. we also learned about f-statistics, which is the variance of error due to the regression model divided by the variance of error due to the error term. finally, we used solver to minimize our loss function, which we formulated using matrices.
+📌Summary 484: we started by discussing the meaning of statistical significance. we discussed that if our value of beta lies within the 95% confidence interval, it means that our value depends on the sample we chose. if we chose another sample, the value could be different. so, we arrived at the conclusion that the value is not statistically significant; it is by chance. and if 0 is present in our interval, then beta can be zero by chance. however, if our value is outside that 95% interval, it means it is not by chance”it is statistically significant. for that, our p-value must be very low, allowing us to reject the null hypothesis that beta is zero. this applies to linear regression.
+
+then we examined multiple linear regression (mlr), where we discussed different statistical parameters obtained using a spreadsheet. we analyzed the significance of each feature by looking at its coefficient. we also learned about f-statistics, which is the variance of error due to the regression model divided by the variance of error due to the error term. finally, we used solver to minimize our loss function, which we formulated using matrices.
+----------------------------------------------------------------------------------------------------
+👉Pair 2: (Index 151, Index 164) — Similarity: 0.9979
+📌Summary 151: standard error : indicates how different the sample mean is likely to be from the population mean. standard error for normal distribution ïƒ/âˆšn (known variance of population), s/âˆšn (population variance unknown). normal and t distribution. if population standard deviation is known, errors will follow normal distribution. if population standard deviation is unknown and sample size is <30, they will follow a t distribution.
+test statistics for normal (z stat) and t (t stat) distributions. 
+concept of p-value and relation with confidence interval. statistical equivalence of 2 values in an interval. a regression is not obtained if in y = î²0 + î²1x, î²1 is statistically equivalent to 0. multiple linear regression and anova (analysis of variance) as a tool to compare statistical equivalence of multiple averages simultaneously. f - statistics = msr/mse
+📌Summary 164: standard error : indicates how different the sample mean is likely to be from the population mean. standard error for normal distribution s/âˆšn. normal and t distribution. if population standard deviation is known, errors will follow normal distribution. if population standard deviation is unknown and sample size is <30, they will follow a t distribution.
+test statistics for normal (z stat) and t (stat) distributions. 
+concept of p-value and relation with confidence interval. statistical equivalence of 2 values in an interval. a regression is not obtained if in y = î²0 + î²1x, î²1 is statistically equivalent to 0. multiple linear regression and anova (analysis of variance) as a tool to compare statistical equivalence of multiple averages simultaneously. f - statistics = msr/mse
+----------------------------------------------------------------------------------------------------
+👉Pair 3: (Index 29, Index 663) — Similarity: 0.9935
+📌Summary 29: today we discussed statistical significance before moving on to python, where tutorials were assigned to prepare for our next class.
+
+in this session, we learned how data science algorithms judge session summaries with a relative strength method where distances between submissions were calculated using scatter plot coefficients.
+
+later, we studied multiple linear regression, where the dependent variable is influenced by more than one independent variable. we learned about f-value, which measures model effectiveness by measuring explained versus unexplained variance”a higher f-value indicative of a better model. using a dataset, we calculated error metrics and compared f-values to practically assess model performance.
+📌Summary 663: today, we continued our discussion on statistical significance before shifting focus to python, with assigned tutorials to prepare for our next class.  
+
+we explored how data science algorithms evaluate session summaries using a relative strength method, calculating distances between submissions based on scatter plot coefficients.  
+
+later, we studied multiple linear regression, where a dependent variable is influenced by multiple independent variables. we learned about the f-value, which measures model effectiveness by comparing explained and unexplained variance”a higher f-value indicating a better model. using a dataset, we calculated error metrics and compared f-values to assess model performance practically.
+----------------------------------------------------------------------------------------------------
+👉Pair 4: (Index 432, Index 622) — Similarity: 0.9925
+📌Summary 432: we learned about crisp-dm (cross industry standard process for data mining), a six-step, cyclical process. it starts with business understanding, where we define the problem and assess relevant statistics. then comes data understanding, where we collect and explore the dataset. the modeling phase involves building and evaluating different models, followed by evaluation, where we assess the results to ensure they align with business needs. finally, in the deployment stage, the model is finalized, and reports are generated. after that, we explored exploratory data analysis (eda), a crucial approach in statistics and data science for investigating datasets. we also looked at outliers and quartiles, understanding how boxplots help visualize variability and detect outliers. additionally, we studied inter-feature relationships using matrix plots to identify correlations between different features. we then learned about three types of missing data: missing completely at random (mcar), where the missing values have no pattern; missing at random (mar), where missing data is related to some observed variables; and missing not at random (mnar), where the missing values are dependent on unobserved factors. we discussed true outliers, which are extreme values in a dataset that are not errors but actual observations.
+📌Summary 622: we were taught about crisp-dm (cross industry standard process for data mining), a cyclical six-step process. we begin with business understanding, defining the problem and examining pertinent statistics. next is data understanding, gathering and understanding the dataset. the modeling stage entails constructing and testing various models, followed by evaluation, where we test the outcomes to make sure they meet business requirements. last but not least, in the deployment phase, the model is completed, and reports are produced.then, we learned about exploratory data analysis (eda), an important statistic and data science method for examining datasets. we also considered outliers and quartiles and recognized how boxplots can display variability and identify outliers. we also learned about inter-feature relationships with matrix plots to look for correlations among various features. we then discovered three categories of missing data: missing completely at random (mcar), in which the missing values are not patterned; missing at random (mar), in which missing data is a function of some observed variables; and missing not at random (mnar), in which the missing values are a function of unobserved variables. finally, we talked about true outliers, which are outliers in a dataset that are not errors but real observations.
+----------------------------------------------------------------------------------------------------
+👉Pair 5: (Index 436, Index 561) — Similarity: 0.9897
+📌Summary 436: in our last session, we had continued to follow up on our statistical concepts based on the background we had developed earlier. we explored terms from our data analysis toolpack, discussed their meanings, interconnections, how to represent them graphically, and the potential sources of uncertainty or errors in applying them.
+the significant portion of the class was assigned to understanding cases involving beta and beta 0 under specific conditions, with emphasis on how they feature in different statistical models. we also went ahead and introduced discussion on the concept of the p-value, bringing into light its role on critical decisions especially regarding feature selection.
+at the end of the class, we started to touch on anova, or analysis of variance, and focused on the f-statistic. we discussed why it was important for this value to be large, also relating to how it relates to evaluating model performance.
+📌Summary 561: we continued to follow up on our statistical concepts. we explored terms from our data analysis toolpack, discussed their meanings, interconnections, how to represent them graphically, and the potential sources of uncertainty or errors in applying them.
+the significant portion of the class covers cases involving beta and beta 0 under specific conditions, with emphasis on how they feature in different statistical models. discussed the concept of the p-value, bringing into light its role on critical decisions especially regarding feature selection.
+at the end of the class, we started to touch on anova, or analysis of variance, and focused on the f-statistic. we discussed why it was important for this value to be large, also relating to how it relates to evaluating modelâ performance.
+----------------------------------------------------------------------------------------------------
+👉Pair 6: (Index 219, Index 294) — Similarity: 0.9875
+📌Summary 219: discussed about the plan for the next remaining 10 lectures and about group project, learnt about function encoding in the start of class. saw an example of converting y(red, blue, green) with three column to be encoded to a function f(x) with three variables y1, y2, y3. there are two types of problems multiclass and multilabel, based on that we can have the approach ahead. then we saw binary encoding which results in a very compact encoding. we learnt that conversion in detail, how to get the answer. frequency encoding is in which we replace the category values with it's frequency it occurs in dataset. in target encoding, all the r values in the column are replaced by average calculated score above 2.5 in this case. 
+📌Summary 294: discussed about the plan for the next remaining 10 lectures and about group project, learnt about function encoding in the start of class. saw an example of converting y(red, blue, green) with three column to be encoded to a function f(x) with three variables y1, y2, y3. there are two types of problems multiclass and multilabel, based on that we can have the approach ahead. then we saw binary encoding which results in a very compact encoding. we learnt that conversion in detail, how to get the answer. frequency encoding is in which we replace the category values with it's frequency it occurs in dataset. in target encoding, all the r values in the column are replaced by average calculated score above 2.5 in this case. other methods are like label encoding, one hot encoding, image encoding, etc. then we saw feature binning with an example of random spread of data. how to process test data. 
+----------------------------------------------------------------------------------------------------
+👉Pair 7: (Index 87, Index 448) — Similarity: 0.9872
+📌Summary 87: the session started with a quick review of the gradient descent function and then moved into logistic regression. the professor explained the confusion matrix and showed a website where you could experiment with neural network clustering. after that, students explored logistic regression code and learned about key metrics like precision, recall, and the f1 score. the roc curve was also introduced, with the false positive rate (fpr) on the x-axis and the true positive rate (tpr) on the y-axis, and it was mentioned that each class has its own curve. the session finished with a look at clustering methods, starting with k-means, where the number of clusters is set in advance, and ending with hierarchical clustering.
+
+
+📌Summary 448: the session started with a review of gradient descent before introducing logistic regression. the professor explained the confusion matrix and showed a website for experimenting with neural network clustering.
+we then explored logistic regression code and learned about key performance metrics like precision, recall, and the f1 score. the roc curve was introduced, with the false positive rate on the x-axis and the true positive rate on the y-axis, showing different curves for each class.
+later, the topic shifted to clustering. it began with hierarchical clustering, followed by k-means clustering, where the number of clusters is set in advance. this helped students understand different ways to group data.
+
+
+----------------------------------------------------------------------------------------------------
+👉Pair 8: (Index 87, Index 624) — Similarity: 0.9871
+📌Summary 87: the session started with a quick review of the gradient descent function and then moved into logistic regression. the professor explained the confusion matrix and showed a website where you could experiment with neural network clustering. after that, students explored logistic regression code and learned about key metrics like precision, recall, and the f1 score. the roc curve was also introduced, with the false positive rate (fpr) on the x-axis and the true positive rate (tpr) on the y-axis, and it was mentioned that each class has its own curve. the session finished with a look at clustering methods, starting with k-means, where the number of clusters is set in advance, and ending with hierarchical clustering.
+
+
+📌Summary 624: the class began with a quick review of gradient descent and then moved to logistic regression.
+the confusion matrix was explained, and the teacher showed a website to try neural network clustering.
+after that, students looked at logistic regression code and learned about important measures like precision, recall, and the f1 score.
+the roc curve was introduced, where the x-axis shows the false positive rate (fpr) and the y-axis shows the true positive rate (tpr).
+it was also said that each class has its own roc curve.
+next, the session moved to clustering, starting with k-means, where the number of groups is decided before.
+in the end, the discussion moved to hierarchical clustering and different ways to do clustering were explained.
+
+----------------------------------------------------------------------------------------------------
+👉Pair 9: (Index 15, Index 29) — Similarity: 0.9859
+📌Summary 15: today, we built on our understanding of statistical significance before shifting gears to python, where we were assigned tutorials to prepare for the next class.  
+
+we also looked at how data science algorithms analyze session summaries using a relative strength approach. this method calculates the distance between different submissions based on scatter plot coefficients, helping to evaluate patterns effectively.  
+
+later, we dove into **multiple linear regression**, where a dependent variable is influenced by multiple independent factors. a key concept we explored was the **f-value**, which helps gauge a model's effectiveness by comparing explained and unexplained variance”a higher f-value suggests a better fit. using a dataset, we applied error metrics and compared f-values, getting some hands-on experience in assessing model performance.
+📌Summary 29: today we discussed statistical significance before moving on to python, where tutorials were assigned to prepare for our next class.
+
+in this session, we learned how data science algorithms judge session summaries with a relative strength method where distances between submissions were calculated using scatter plot coefficients.
+
+later, we studied multiple linear regression, where the dependent variable is influenced by more than one independent variable. we learned about f-value, which measures model effectiveness by measuring explained versus unexplained variance”a higher f-value indicative of a better model. using a dataset, we calculated error metrics and compared f-values to practically assess model performance.
+----------------------------------------------------------------------------------------------------
+👉Pair 10: (Index 15, Index 663) — Similarity: 0.9853
+📌Summary 15: today, we built on our understanding of statistical significance before shifting gears to python, where we were assigned tutorials to prepare for the next class.  
+
+we also looked at how data science algorithms analyze session summaries using a relative strength approach. this method calculates the distance between different submissions based on scatter plot coefficients, helping to evaluate patterns effectively.  
+
+later, we dove into **multiple linear regression**, where a dependent variable is influenced by multiple independent factors. a key concept we explored was the **f-value**, which helps gauge a model's effectiveness by comparing explained and unexplained variance”a higher f-value suggests a better fit. using a dataset, we applied error metrics and compared f-values, getting some hands-on experience in assessing model performance.
+📌Summary 663: today, we continued our discussion on statistical significance before shifting focus to python, with assigned tutorials to prepare for our next class.  
+
+we explored how data science algorithms evaluate session summaries using a relative strength method, calculating distances between submissions based on scatter plot coefficients.  
+
+later, we studied multiple linear regression, where a dependent variable is influenced by multiple independent variables. we learned about the f-value, which measures model effectiveness by comparing explained and unexplained variance”a higher f-value indicating a better model. using a dataset, we calculated error metrics and compared f-values to assess model performance practically.
+----------------------------------------------------------------------------------------------------
+👉Pair 11: (Index 299, Index 411) — Similarity: 0.9848
+📌Summary 299: we began by reading through the summaries and looking at the trends in the data. from the graph, we observed that as the sessions progressed, fewer people were submitting summaries, but the average word count in each summary was increasing. then, we looked at a case where the function was like a sine curve. we started with a single feature, x1. then, we produced additional features like x1^2, x1^3, x1^4 with polynomial regression. this allowed us to calculate a p-value. to enhance the model, we added another feature, sin(x1), and found that the new p-value calculated was smaller than before, so this sine-based feature was adding to some extent. although addition of too many features beyond a certain point may reduce the model's effectiveness, this is reflected in a drop in the adjusted r^2 value. as long as a single model can capture the data well, it is always better than using multiple models unnecessarily. we also covered some significant parametric methods, particularly neural networks. these models have an input layer that accepts features and computational layers that transform the data. when these computations are spread across several layers, it is known as deep learning. the input layer is connected to the computational layers through links, which represent the model's degrees of freedom. however, increasing these degrees of freedom too much can lead to overfitting, making the model less generalizable to new data.
+📌Summary 411: first, we looked at all the summaries. we had a pattern where the number of people submitting summaries decreased as sessions went on while the average words per summary were increasing.
+
+the second case that we looked into was when the function was looking more like a sine curve. in this case, we only used one feature, x1 but used more polynomial features like x1^2,x1^3, x1^4, using polynomial regression to get a good fit. this model gave us a p-value. to further improve the model, we added a new feature, sin x1. in this second case, the resulting p-value was lower than in the first case. this means that the sine feature was statistically significant and improved the model's performance. however, adding too many features beyond a certain point does not necessarily improve the estimation and can lead to a decline in adjusted râ² values. in general, if we can fit the data using a single model, it should be preferred over the fit using multiple models. we then discussed parametric methods, including neural networks.
+
+in these models, an input layer takes in features, which are passed through computational layers. when computations happen across more than one layer, it is called deep learning. the input layer is connected to computational layers in a way representing the degrees of freedom. while increasing these degrees of freedom may improve prediction it also means that there is an increased chance of overfitting, which is the model overly fits the training data and, therefore underfits new data.
+----------------------------------------------------------------------------------------------------
+👉Pair 12: (Index 263, Index 384) — Similarity: 0.9838
+📌Summary 263: explained different levels of measurement like ordinary , nominal , interval and ratios .also explained different models of machine learning for regression and classification.gave a introduction on the difference in supervised and unsupervised learning like when labels are known , it is supervised when they are unknown it is unsupervised. 
+📌Summary 384: elaborated upon different levels of measurement like ordinary , nominal , interval and ratios .listed different models of machine learning for regression and classification.gave a brief about the difference in supervised and unsupervised learning like when labels are known , it is supervised when they are unknown it is unsupervised.i
+----------------------------------------------------------------------------------------------------
+👉Pair 13: (Index 448, Index 624) — Similarity: 0.9830
+📌Summary 448: the session started with a review of gradient descent before introducing logistic regression. the professor explained the confusion matrix and showed a website for experimenting with neural network clustering.
+we then explored logistic regression code and learned about key performance metrics like precision, recall, and the f1 score. the roc curve was introduced, with the false positive rate on the x-axis and the true positive rate on the y-axis, showing different curves for each class.
+later, the topic shifted to clustering. it began with hierarchical clustering, followed by k-means clustering, where the number of clusters is set in advance. this helped students understand different ways to group data.
+
+
+📌Summary 624: the class began with a quick review of gradient descent and then moved to logistic regression.
+the confusion matrix was explained, and the teacher showed a website to try neural network clustering.
+after that, students looked at logistic regression code and learned about important measures like precision, recall, and the f1 score.
+the roc curve was introduced, where the x-axis shows the false positive rate (fpr) and the y-axis shows the true positive rate (tpr).
+it was also said that each class has its own roc curve.
+next, the session moved to clustering, starting with k-means, where the number of groups is decided before.
+in the end, the discussion moved to hierarchical clustering and different ways to do clustering were explained.
+
+----------------------------------------------------------------------------------------------------
+👉Pair 14: (Index 355, Index 418) — Similarity: 0.9819
+📌Summary 355: there are 4 different types of measurements:-
+1. nominal:- no absolute ordering between data types. ex. gender
+2. ordinal:- discrete data with ordering. ex. education level.
+3. interval:- has no absolute zero and is continuous. ex. temperature.
+4. ratio:- an absolute zero is defined and is continuous. ex. length
+ for ordinal and nominal we use classification.
+interval and ratio we use regression.
+general equation of a ml problem is f(x)=y where x is the input y is the output and f is our algorithm.
+supervised learning is used in data with labels and then we try to predict accurate labels for unknown data, whereas in unsupervised learning unlabeled datasets are classified into clusters.  
+ 
+📌Summary 418: four categories of measurements exist: 1. nominal: there is no precise hierarchy among data kinds. for example, gender 2. ordinal: ordering of discrete data. for example, educational attainment. 3. the interval is continuous and lacks an absolute zero. for example, temperature. 4. ratio: a continuous, absolute zero is defined. for example, lengthclassification is used for nominal and ordinal data. regression is used for intervals and ratios. when x is the input, y is the output, and f is our algorithm, the general equation for an ml problem is f(x)=y. while unsupervised learning groups unlabeled datasets into clusters, supervised learning uses labeled data and attempts to predict appropriate labels for unknown data.
+----------------------------------------------------------------------------------------------------
+👉Pair 15: (Index 206, Index 573) — Similarity: 0.9812
+📌Summary 206: today's session focused on principal component analysis (pca) as a feature reduction technique, emphasizing its role in dimensionality reduction while retaining maximum variance. the discussion began with the importance of removing correlated factors using variance inflation factor (vif) before applying pca. key concepts included the identification of principal components (pcs), ensuring that they capture the highest variance in data, and how pca effectively reduces dimensionality. the session also touched on the use of the elbow method to determine the optimal number of pcs for a dataset. further, the applications of pca were explored, including its role in visualization (eda), prediction models, and understanding data structure. a comparison was made between normal regression models and pc regression, demonstrating how pca-transformed variables can enhance interpretability and model efficiency. the session concluded with a discussion on the significance of pca in real-world data analysis and its integration into predictive modeling workflows.
+
+📌Summary 573: the session highlighted the use of principal component analysis (pca) in feature reduction, focusing on dimensionality reduction while retaining the most variance. a brief introduction was provided on the need to remove correlated factors using vif before pca can be performed. the applications of pca included visualization (eda), embedding in prediction models, and analysis of the structure of data as a comparison between classic regression models and pc regression, improved interpretability, and computational efficiency. this includes how to extract the pcs and how to determine the number of pcs by the elbow method. then, the session efficiently packs out with the role of pca in the analysis of real-world data and predictive modeling workflows.
+----------------------------------------------------------------------------------------------------
+👉Pair 16: (Index 51, Index 434) — Similarity: 0.9797
+📌Summary 51: population and sample differ in that a sample is a subset of the population. attributes calculated for a sample are called statistics, while those for a population are called parameters. parameters can be estimated using sample statistics (e.g., mean, variance, standard deviation).
+
+in simple linear regression, the goal is to find the best-fit line (y = î²â‚€ + î²â‚x) for making predictions. here, î²â‚€ and î²â‚ are estimates of population parameters. confidence intervals for these estimates are calculated by minimizing the sum of squared errors (î£(eáµ¢â²), where eáµ¢ = yáµ¢ - (î²â‚€ + î²â‚xáµ¢)).
+
+the estimates for î²â‚€ and î²â‚ are derived as:
+î²â‚€ = mean(y) - î²â‚ * mean(x)
+î²â‚ = (mean(xy) - mean(x) * mean(y)) / (mean(xâ²) - (mean(x))â²).
+
+
+📌Summary 434: population and sample differences, sample being a subset of population and any attributes calculated for sample are called statistics whereas for population are called parameters. parameters can be estimated based on the statistics(sample mean, variance, standard deviation, etc). simple linear regression and obtaining equation of best fit line for trying to make predictions based on available data. regression line equation - y = î²o + î²1x, where î²o and î²1 are estimates of population parameters. finding confidence interval for parameter estimates and estimates by minimizing the sum of squares of errors (square of distances(euclidean dist.) since taking the absolute value(manhattan dist.) differentiates between directions. minimizing î£(eiâ²) by partial differentiating wrt. î²o and î²1 to obtain estimates for the population parameters based on available data, ei = (yi - î²o + î²1xi). expressions obtained -
+î²o = mean(y) - î²1*mean(x)
+î²1 = (mean(xy) - mean(x) * mean(y) )/(mean(xâ²) - (mean(x))â² ) 
+----------------------------------------------------------------------------------------------------
+👉Pair 17: (Index 90, Index 575) — Similarity: 0.9794
+📌Summary 90: we began with an analysis of pivot tables in excel, which can be helpful for summarizing large datasets by arranging and aggregating information. we learned how to create pivot tables, re-arrange fields, and calculate important metrics like sums, averages, counts, and percentages to gain meaningful insights.
+
+after that we learned some methods of exploratory data analysis (eda). we also learned important statistical parameters such as mean, median, variance, and standard deviation to understand the distribution of data alon with some methods of visualization such as histograms, box plots, and scatter plots that enable us to identify patterns, trends in distribution, and outliers.
+
+later on, we discussed problems like class imbalance, where a particular category is very heavily overrepresented, and it causes biased outcomes. we touched upon feature engineering and data transformation techniques briefly, which improve the quality of the data prior to performing more intensive analysis.
+📌Summary 575: we started with pivot tables in excel. we learned how pivot tables help to summarize large collections of data by grouping and totaling values. we learned how to create a pivot table in excel, drag and drop fields, and calculate measurements like sum, average, count, and percentages to effectively analyze data.
+
+then we moved on to other eda (exploratory data analysis) methods. we talked about how summary statistics like mean, median, variance, and standard deviation give an idea of the data. we also covered visualization methods like histograms, box plots, and scatter plots to identify trends, skewness, and outliers.
+
+lastly, we touched on how data issues like class imbalance could impact analysis. when one of the classes significantly outweighs all the rest, it can skew results. we also did a quick overview of feature engineering and transformation, which are utilized to assist in improving data quality before analysis.
+----------------------------------------------------------------------------------------------------
+👉Pair 18: (Index 440, Index 542) — Similarity: 0.9786
+📌Summary 440: we studied different types of roc curves today, which depict the relationship between true positives and false positives at various thresholds. the classifier's performance deteriorated the more the curve is flat. a flat roc curve indicates that the model is consistently mispredicting at higher rate because there is no effect on the true positive when the threshold is increased but the false positive keeps increasing. in these settings, the low auc value offers additional justification for the classifier failure. any part of the curve that customarily exceeds the diagonal x=y line represents a better model because it had a value of auc of 0.5.
+
+
+📌Summary 542: we analyzed different types of roc curves today. an roc curve charts the true positive rate against the false positive rate for classifying instances at different threshold levels. we established that a curve that is flat signifies that the classifier performs poorly. the flat curve means that even if the threshold is raised, there will be no significant increase in true positive rates, but the false positive rate will increase. it means that the classifier is overpredicting. during these instances, the auc value is low, meaning that the classifier does not perform well. in most cases, the diagonal line y=x which represents a random classifier and has an auc of 0.5 is weak, therefore, any part of the graph that is above this line represents improved model performance.
+----------------------------------------------------------------------------------------------------
+👉Pair 19: (Index 3, Index 411) — Similarity: 0.9786
+📌Summary 3: we first looked at all the summaries and observed from the graph that number of people who are submitting the summaries are decreasing with the session and the average number of words in the summaries are increasing.
+then we took an example where the function looked similar to sine curve and with one feature x1, we engineered other features as x1â²,x1â³,x1â´.this is called polynomial regression.from this we obtained a p-value.then we added another feature which was sin(x1). the p value obtained in second case was found less than that of first case which suggested that the sine feature that was added is significant for this model.however, adding large number of features such that they do not give a better estimation beyond a certain point is not preferred and will decrease the adjusted râ² values.also,if a single model can represent the data good enough then it should always be chosen over having multiple models.
+then we discussed about parametric method like neural network. in this there is an input layer which takes in the features and then another layer which performs computations. if computations are performed in multiple layers it is referred to as deep learning. input layer is connected to computational layers through links which represent the degrees of freedom. increasing the degrees of freedom can lead to overfitting.
+📌Summary 411: first, we looked at all the summaries. we had a pattern where the number of people submitting summaries decreased as sessions went on while the average words per summary were increasing.
+
+the second case that we looked into was when the function was looking more like a sine curve. in this case, we only used one feature, x1 but used more polynomial features like x1^2,x1^3, x1^4, using polynomial regression to get a good fit. this model gave us a p-value. to further improve the model, we added a new feature, sin x1. in this second case, the resulting p-value was lower than in the first case. this means that the sine feature was statistically significant and improved the model's performance. however, adding too many features beyond a certain point does not necessarily improve the estimation and can lead to a decline in adjusted râ² values. in general, if we can fit the data using a single model, it should be preferred over the fit using multiple models. we then discussed parametric methods, including neural networks.
+
+in these models, an input layer takes in features, which are passed through computational layers. when computations happen across more than one layer, it is called deep learning. the input layer is connected to computational layers in a way representing the degrees of freedom. while increasing these degrees of freedom may improve prediction it also means that there is an increased chance of overfitting, which is the model overly fits the training data and, therefore underfits new data.
+----------------------------------------------------------------------------------------------------
+👉Pair 20: (Index 522, Index 558) — Similarity: 0.9781
+📌Summary 522: in today's session, we covered important data science concepts: regression metrics, sampling distributions, and the central limit theorem (clt). we learned some of the most important regression metrics: sse, mse, rmse, and mae. these metrics assess model performance and prediction accuracy.
+
+we also discussed how regression coefficients from sample data estimate population parameters and the importance of evaluating their reliability. sampling distributions help in this by showing how sample means form a normal distribution, as explained by the clt, enabling population inferences and confidence interval calculations.
+
+finally, we applied these concepts in excel by plotting error histograms and drawing the best-fit line using linear regression, reinforcing their practical relevance in building reliable models.
+📌Summary 558: 
+in  today's session, we focused on key concepts in data science and statistical analysis, including a review of regression metrics, sampling distributions, and the central limit theorem (clt). from the uploaded document, we explored metrics such as sse (sum of squared errors), mse (mean squared error), rmse (root mean squared error), and mae (mean absolute error), which are essential for assessing the performance of linear regression models. these metrics help quantify the model's ability to explain variations in the data and its accuracy in predicting outcomes. the document also introduced the idea that regression coefficients derived from sample data are estimates of population parameters, emphasizing the importance of evaluating their reliability.
+
+to understand this reliability, we examined the concept of sampling distributions, where multiple representative samples are drawn from a population to calculate sample means. these means tend to form a normal distribution as per the central limit theorem, regardless of the original population distribution, provided the sample size is sufficiently large. this principle allows statisticians to infer population characteristics and calculate confidence intervals for model parameters. by reducing uncertainty with larger sample sizes, the standard error of the sampling distribution decreases, improving the precision of estimates. and then we made this on excel sheet and plotted histogram for errors and drew best fit line using linear regression. the discussion highlighted the theoretical and practical importance of these concepts for creating generalizable and reliable models in data science.
+----------------------------------------------------------------------------------------------------
+👉Pair 21: (Index 159, Index 234) — Similarity: 0.9776
+📌Summary 159: today's lecture covered population parameters, sample statistics, and simple linear regression with the equation y = bâ‚€ + bâ‚x, where bâ‚€ (intercept) and bâ‚ (slope) estimate population parameters. bias was defined as the effect of unaccounted variables.
+
+we compared error methods like sum of absolute errors and sum of squared errors (sse), favoring sse for its sensitivity to outliers. formulas for bâ‚€ and bâ‚ were derived, and confidence intervals were introduced for more reliable parameter estimation. this formed the basis of regression modeling and error analysis.
+📌Summary 234: we discussed population parameters and sample statistics such as mean, median, and variance. in simple linear regression, we introduced the equation y = bâ‚€ + bâ‚x, where bâ‚€(intercept) and bâ‚(slope) are sample estimates of population parameters. bias was defined as the influence of unaccounted variables in the model.  
+we explored error calculation methods like sum of absolute errors and sum of squared errors (sse), with sse preferred for its sensitivity to large deviations. different samples yield different regression lines, so evaluating errors is crucial to determine accuracy.  
+we derived formulas to compute bâ‚€ and bâ‚and discussed confidence intervals for estimating population parameters, which offer better reliability compared to point estimates. this established the basis of regression modeling and error analysis.
+----------------------------------------------------------------------------------------------------
+👉Pair 22: (Index 3, Index 299) — Similarity: 0.9776
+📌Summary 3: we first looked at all the summaries and observed from the graph that number of people who are submitting the summaries are decreasing with the session and the average number of words in the summaries are increasing.
+then we took an example where the function looked similar to sine curve and with one feature x1, we engineered other features as x1â²,x1â³,x1â´.this is called polynomial regression.from this we obtained a p-value.then we added another feature which was sin(x1). the p value obtained in second case was found less than that of first case which suggested that the sine feature that was added is significant for this model.however, adding large number of features such that they do not give a better estimation beyond a certain point is not preferred and will decrease the adjusted râ² values.also,if a single model can represent the data good enough then it should always be chosen over having multiple models.
+then we discussed about parametric method like neural network. in this there is an input layer which takes in the features and then another layer which performs computations. if computations are performed in multiple layers it is referred to as deep learning. input layer is connected to computational layers through links which represent the degrees of freedom. increasing the degrees of freedom can lead to overfitting.
+📌Summary 299: we began by reading through the summaries and looking at the trends in the data. from the graph, we observed that as the sessions progressed, fewer people were submitting summaries, but the average word count in each summary was increasing. then, we looked at a case where the function was like a sine curve. we started with a single feature, x1. then, we produced additional features like x1^2, x1^3, x1^4 with polynomial regression. this allowed us to calculate a p-value. to enhance the model, we added another feature, sin(x1), and found that the new p-value calculated was smaller than before, so this sine-based feature was adding to some extent. although addition of too many features beyond a certain point may reduce the model's effectiveness, this is reflected in a drop in the adjusted r^2 value. as long as a single model can capture the data well, it is always better than using multiple models unnecessarily. we also covered some significant parametric methods, particularly neural networks. these models have an input layer that accepts features and computational layers that transform the data. when these computations are spread across several layers, it is known as deep learning. the input layer is connected to the computational layers through links, which represent the model's degrees of freedom. however, increasing these degrees of freedom too much can lead to overfitting, making the model less generalizable to new data.
+----------------------------------------------------------------------------------------------------
+👉Pair 23: (Index 432, Index 665) — Similarity: 0.9769
+📌Summary 432: we learned about crisp-dm (cross industry standard process for data mining), a six-step, cyclical process. it starts with business understanding, where we define the problem and assess relevant statistics. then comes data understanding, where we collect and explore the dataset. the modeling phase involves building and evaluating different models, followed by evaluation, where we assess the results to ensure they align with business needs. finally, in the deployment stage, the model is finalized, and reports are generated. after that, we explored exploratory data analysis (eda), a crucial approach in statistics and data science for investigating datasets. we also looked at outliers and quartiles, understanding how boxplots help visualize variability and detect outliers. additionally, we studied inter-feature relationships using matrix plots to identify correlations between different features. we then learned about three types of missing data: missing completely at random (mcar), where the missing values have no pattern; missing at random (mar), where missing data is related to some observed variables; and missing not at random (mnar), where the missing values are dependent on unobserved factors. we discussed true outliers, which are extreme values in a dataset that are not errors but actual observations.
+📌Summary 665: we studied about crisp-dm
+(cross industry standard process for data mining) which has 6 steps running cyclically:-(i)business understanding-determine business objectives,(ii)data understanding-explore data,(iii)data preparation-construct data,(iv)modelling-assess model,(v)evaluation-review process and (vi) deployment-review project.
+next we studied about exploratory data analysis(eda).it is an approach used in statistics and data science to analyze and investigate datasets.
+then we looked at outliers and quartiles. a boxplot can help to understand variability in the features and outlier instances.
+then we studied about 3 types of missing data:-(i)missing completely at random(mcar),(ii)missing at random(mar) and (iii)missing not at random(mnar)
+lastly we got to know about true outliers, values that lie in the extremes but are not erroneous.
+----------------------------------------------------------------------------------------------------
+👉Pair 24: (Index 124, Index 157) — Similarity: 0.9766
+📌Summary 124: we started with logistic regression and found out how we could find the weights that will drive our predictions. our aim is to bring our predicted results as close to the real targets as possible. when the actual value is 1, we want our predicted probability to be high; if it is 0, then low. this requires taking that into consideration for all of the observations in our training data.
+
+since dealing with product terms can grow complicated, we take the log of the likelihood function, and turn multiplication into addition, so turning things over is significantly easier. maximizing this gives us the minimum amount of error possible, and hence finds us the best fit for our model.
+
+for analysing whether or not our model was a good fit, we use a confusion matrix, which categorizes predictions into four groups:
+
+- true negatives (tn):correctly predicted negatives 
+
+- false positives (fp):positives wrongly predicted (false alarms) 
+
+- false negatives (fn):negatives wrongly predicted (missing actual positives) 
+
+- true positives (tp):correctly classified as positive 
+
+by using all of this, we get a number of valuable performance metrics: 
+- the ratio of the correctness of outputs from the model for majority of the cases. 
+accuracy= (tp + tn)/total count of observations
+
+- precision:when the model indicates something is positive, how frequently is it truly accurate? 
+
+- recall:among all the true positive instances, how many did the model accurately recognize? 
+
+- f1-score:a compromise between precision and recall. unlike accuracy, which may be deceptive in the presence of imbalanced data, the f1-score accounts for both precision and recall, avoiding misplaced confidence in the model's effectiveness.
+
+in summary, precision indicates the trustworthiness of our positive predictions, recall measures our effectiveness in identifying positives, and the f1-score guarantees we remain realistic about our accuracy.
+📌Summary 157: we began by using logistic regression and learned to compute the weights. the intention is to predict outcomes such that our predicted ones match the true targets as much as possible. if the actual outcome is 1, we want to maximize the probability of predicting 1, and if it's 0, we want to maximize the probability of predicting 0. we look at the overall objective across all training data. since working with products in probability calculations can be tricky, we take the logarithm to simplify things, turning them into sums instead. we evaluate how well our model performs by using a confusion matrix, which breaks down predictions into four categories: true negatives, false positives, false negatives, and true positives. from this, we define key performance metrics. accuracy tells us how many predictions we got right overall. precision measures how many of our predicted positives were actually correct, while recall checks how many actual positive cases we successfully identified. finally, the f1 score, which is the harmonic mean of precision and recall, gives a more balanced assessment, avoiding the misleading optimism that accuracy alone can sometimes create.
+----------------------------------------------------------------------------------------------------
+👉Pair 25: (Index 580, Index 644) — Similarity: 0.9763
+📌Summary 580: crisp-dm is a process-oriented, iterative data mining approach beginning with business and data understanding, preparing data, constructing models, assessing results, and implementing solutions. exploratory data analysis (eda) assists in revealing patterns, identifying anomalies, and visualizing distributions”such as glucose and bmi are reasonably normal, whereas insulin contains numerous outliers. missing values can be random or caused by certain problems, and methods such as knn can impute the missing values. class imbalance is also a problem, which needs to be handled carefully.
+📌Summary 644: crisp-dm is the process we covered today for addressing data mining, progressing through learning about business and data, preparing it, developing models, testing them, and ultimately deploying solutions. eda allows us to play with data, identify patterns, and see problems such as insulin outliers. there isn't always random missing data, so we apply methods such as knn or mice to manage it. class imbalance can also distort results, so there are special techniques. visualization tools such as histograms and boxplots make analysis more intuitive and clearer.
+----------------------------------------------------------------------------------------------------
+👉Pair 26: (Index 206, Index 207) — Similarity: 0.9758
+📌Summary 206: today's session focused on principal component analysis (pca) as a feature reduction technique, emphasizing its role in dimensionality reduction while retaining maximum variance. the discussion began with the importance of removing correlated factors using variance inflation factor (vif) before applying pca. key concepts included the identification of principal components (pcs), ensuring that they capture the highest variance in data, and how pca effectively reduces dimensionality. the session also touched on the use of the elbow method to determine the optimal number of pcs for a dataset. further, the applications of pca were explored, including its role in visualization (eda), prediction models, and understanding data structure. a comparison was made between normal regression models and pc regression, demonstrating how pca-transformed variables can enhance interpretability and model efficiency. the session concluded with a discussion on the significance of pca in real-world data analysis and its integration into predictive modeling workflows.
+
+📌Summary 207: in today's class we discussed about principal component analysis (pca). it is used as a feature reduction technique . we discussed  the importance of removing correlated factors using variance inflation factor (vif) before applying pca. the session covered how principal components (pcs) work, focusing on picking the ones that explain the most variation in the data. pca is mainly used to shrink the number of features while keeping the important information. we also looked at the elbow method, which helps decide how many pcs to keep for the best results. the session went over where pca is useful, like in data visualization (eda), predictive models, and understanding patterns in data. there was also a comparison between standard regression and pc regression, showing how transforming variables with pca can make models clearer and more efficient. we also talked about why pca is such a big deal in data analysis and how it fits into predictive modeling.
+----------------------------------------------------------------------------------------------------
+👉Pair 27: (Index 230, Index 363) — Similarity: 0.9757
+📌Summary 230: the lecture continued on the lines of logistic regression and classification ideas, from where we left off. we started off by discussing the error metrics and the confusion matrix. then we were given a demonstration on some sample data on ˜playground.tensorflow.org', which allowed us to play around with data and neural networks. it allowed us to add features to our classification problem. then we moved on to some code for logistic regression. we understood that the score function for a logistic regression model library gives us the accuracy, which we should not believe. we also plotted the confusion matrix for the data, and understood the true positives and true negatives. we then studied the reciever operating characteristics (roc) curve. the roc curve rose vertically at the start and then became horizontal. this should us that for the given dataset, our model first detected all the true positives before starting to detect false positives. ideally, the roc curve is usually shaped in a crescent shape. the roc curve indicates the quality of the classifier, where a sharper roc curve indicates a better model. the logistic_regression function returns the predicted class for an observation, or the probability value associated with it. hence, by changing the threshold between the classes, we can change the quality of the model and check it using the roc curve. the 45 degree line on the roc curve tells us that there is no classification between the points. hence, the flatter the roc curve for our classifier, the worse is our classification model. we also measure the area under the roc curve and call it as auc. for a good classifier, this value is close to 1. the worst classifier is the one with the roc curve the same as the 45 degrees line. hence the worst case auc value is 0.5. the points on the roc curve correspond to different threshold values for the classification. 
+we then moved on to data having more than 2 classes, and we realised that sometimes, due to lack of anomalous data, we might not be able to use our classifier. in the entire system of the classifier, some classes may have very low f1-score, which means that they are under-represented and the classifier can't be relied on for classification of data into that class. each class has it's own roc curve, and hence a classifier can be good for one class, while being equally bad for another, which can be seen using the roc curve of that class for our classifier. 
+then we moved on to clustering, which was a part of unsupervised learning. in this case, our data does not have any labels, and we need to assign labels to the data ourselves based on some characteristics. this assignment becomes a part of eda. we then studied about some clustering algorithms like hierarchical clustering and k-means clustering. for k-means clustering, we need to give the number of clusters as the input, which is difficult to find out just based on visualisation of data. however, in hierarchical clustering, we plot a dendogram and then based on that, we can decide the number of clusters we need. 
+in k-means clustering, we first specify the number of desired clusters. then the algorithm starts randomly assigning points to any cluster, and then we find the centroid of each cluster. then we find the distance of each point in a cluster to the centroid of all the clusters. then we reassign each point based on the centroid they are closest to. this process repeats until each point is closest to the centroid of its cluster than any other cluster. it is an o(n^2) algorithm. in this algorithm, the initial assignment also changes our final results. hence, we run the algorithm multiple times and check that for each point, which set was it clustered into multiple times, and hence we decide the final cluster it belongs to. 
+hierarchical clustering does not require any initial cluster number. it results in a dendogram, which can help us decide our degree of clustering. it starts by assigning each point as a different cluster. it then gets grouped with other clusters and we get the dendogram. the number of clusters can be decided by where we observe the dendogram. the pair wise distance between each pair of clusters is calculated, and those clusters are grouped, whose distance is less than all the other pairwise distances of those clusters. this goes on till we have just one cluster, giving us the dendogram, and the number of clusters is decided by where we cut the graph. 
+📌Summary 363: we first revised a few concepts from the previous class. to assess the quality of any classification model, we use the confusion matrix. the confusion matrix gives us the number of points that are correctly identified and those that are incorrectly identified, in a tabulated manner. sir showed us some code for fitting a given data set with a logistic regression model and obtaining the various metrics associated with it. the ˜score' represents the accuracy in a classification model, just like it represents r in regression. we also found out the true positive rate and the false positive rate. these are key metrics used to evaluate the performance of a classification model. true positive rate measures the fraction of the actual positives that are correctly determined by the model. similarly, false positives represent the proportion of actual negatives that are incorrectly classified as positive.
+the receiver operating curve (roc) plots tpr vs fpr. if the curve is nearly vertical, then it means before classifying any points as ˜false positives', all the ˜true positives' have already been identified. on the other hand, if the line is exactly 45 degrees, it means the classification is completely random, or we can say that we are not using any classifier at all. so ideally, we want our plot to be as steep as possible. also, the area under the curve for a good classifier should be as close to 1 as possible. various points along the curve represent different threshold values. as you increase the threshold, the model becomes more stricter and hence, there are lesser chances of obtaining true positives, thereby increasing the false negatives. 
+a good classifier is fine until there aren't any significant overlaps in the data sets. however, if the two sets have significantly high overlap, then no classifier will work well for it.
+so, we can improve the quality of our classifier by either transforming the data or creating new and relevant features using feature engineering.
+we also looked at yet another metric- ˜support'. this represents the total number of observations that are in ˜support' of the class, i.e. the number of observations, that have been classified under that class by the model.
+next, we started with ˜clustering'. this is another unsupervised learning algorithm. in this, the points in a given data set are clustered and different groups are made among these. this is usually a part of eda and is used to assign labels to unlabeled data. there are two types of models in it- k means clustering and hierarchical clustering. 
+in k- means clustering, we have to specify the number of ˜means' or in other words the number of clusters that we want. this is not the case for hierarchical clustering. 
+in k- means clustering, all the points are randomly classified first and based on these, a mean value is obtained. using this mean value, the distance between a point and the means of various clusters is calculated and this is done for every point. the point is reassigned to a cluster, whose mean value is closest to the point. the new mean for a cluster is re- calculated based on the new points. then again, the points are reassigned into different clusters. this is repeatedly done, until we reach a step wherein there is no change in the arrangement of the points. this is our final clustering. 
+if the initial assignment of the points to various clusters differs, we can get different clusters every time for the same data set. so, we run multiple such algorithms and the final cluster for a point is chosen to be that cluster in which it falls for the maximum number of times. 
+hierarchical clustering algorithm considers every point as a cluster in itself, and starts clubbing all the clusters one by one, until it reaches a final single cluster with all the points. this is represented as a dendrogram. the height of the leg of the diagram represents the distance between the two points/clusters. so, hierarchical clustering gives many different clusters, which are combined and recombined to form larger and larger clusters. we can decide upto which point we want the clusters. that's it for this class. 
+
+----------------------------------------------------------------------------------------------------
+👉Pair 28: (Index 48, Index 610) — Similarity: 0.9752
+📌Summary 48: the session covered key steps in data preprocessing, starting with outlier analysis and removal. next, it addressed noise reduction using data smoothing techniques like simple moving average (sma) and exponential moving average (ema), where a larger window size results in more smoothing. the discussion then moved to gradient descent as an optimization technique. normalization methods were introduced, followed by the box-cox transformation and logarithmic transformations, which help stabilize variance and normalize data before time series analysis. additionally, maximum likelihood estimation (mle) was discussed. the session also touched on the kepler exoplanet dataset and the synthetic minority over-sampling technique (smote) for handling imbalancedâ data.
+📌Summary 610: the session covered key steps in data preprocessing, starting with outlier analysis and removal. it then explored the kepler exoplanet dataset before discussing the synthetic minority over-sampling technique (smote) for handling imbalanced data. noise reduction techniques like simple moving average (sma) and exponential moving average (ema) were introduced, where a larger window size results in more smoothing. gradient descent was discussed as an optimization technique, followed by normalization methods, including the box-cox and logarithmic transformations, which help stabilize variance and normalize data before time series analysis. finally, maximum likelihood estimation (mle) was covered.
+
+
+----------------------------------------------------------------------------------------------------
+👉Pair 29: (Index 49, Index 558) — Similarity: 0.9745
+📌Summary 49: in  today's session, we focused on regression metrics, sampling distributions, and the central limit theorem (clt).we were also introduced to the idea that regression coefficients derived from sample data are estimates of population parameters, emphasizing the importance of evaluating their reliability.to understand this ,we examined the concept of sampling distributions, where multiple representative samples are drawn from a population to calculate sample means. these means tend to form a normal distribution as per the central limit theorem, regardless of the original population distribution, provided the sample size is sufficiently large. this principle allows statisticians to infer population characteristics and calculate confidence intervals for model parameters. we also saw metrics like sse (sum of squared errors), mse (mean squared error), rmse (root mean squared error), and mae (mean absolute error), which are necessary for analysing the performance of linear regression models. these metrics help to explain variations in the data and its accuracy in predicting outcomes.
+by reducing uncertainty with larger sample sizes, the standard error of the sampling distribution decreases, improving the precision of estimates. and then we made this on excel sheet and plotted histogram for errors and drew best fit line using linear regression.
+📌Summary 558: 
+in  today's session, we focused on key concepts in data science and statistical analysis, including a review of regression metrics, sampling distributions, and the central limit theorem (clt). from the uploaded document, we explored metrics such as sse (sum of squared errors), mse (mean squared error), rmse (root mean squared error), and mae (mean absolute error), which are essential for assessing the performance of linear regression models. these metrics help quantify the model's ability to explain variations in the data and its accuracy in predicting outcomes. the document also introduced the idea that regression coefficients derived from sample data are estimates of population parameters, emphasizing the importance of evaluating their reliability.
+
+to understand this reliability, we examined the concept of sampling distributions, where multiple representative samples are drawn from a population to calculate sample means. these means tend to form a normal distribution as per the central limit theorem, regardless of the original population distribution, provided the sample size is sufficiently large. this principle allows statisticians to infer population characteristics and calculate confidence intervals for model parameters. by reducing uncertainty with larger sample sizes, the standard error of the sampling distribution decreases, improving the precision of estimates. and then we made this on excel sheet and plotted histogram for errors and drew best fit line using linear regression. the discussion highlighted the theoretical and practical importance of these concepts for creating generalizable and reliable models in data science.
+----------------------------------------------------------------------------------------------------
+👉Pair 30: (Index 350, Index 376) — Similarity: 0.9744
+📌Summary 350: we started with a small recap of previous class on confusion matrix for multiple classes. we then started exploratory data analysis where we looked at it's six cyclic steps. 1) business understanding 2) data understanding 3) data preparation 4) modelling 5) evaluation 6) deployment out of which the 2nd and 3rd one were the ones which we dug deeper into. we had a brief discussion on them. then a ta joined us to show an example of this. the problem was to predict if the patient had diabetes. we saw how some parameters lime glucose and bmi had normal distribution and paramaters like insulin and pregnancies had exponential distribution.  we then looked at inter feature relation plots where we also looked at box plots where insulin showed some outliers. then we had discussion on what to do when some of the data is missing. we can either drop it or fill it with parameters like mean or median. when data is clustered, we can fill the missing data with mean/median but when the data follows say a parabolic distribution, filling it with a mean will result in creation of outlier. we can use the closest value instead of using mean which is known as multivariate data imputation. we then had a brief discussion on t-sne plot which helps in visualing higher dimensional data. we then looked at a recent example of nvidia stock fall which might look like an outlier but it's not. we ended our lecture on a note on how median is better than mean when we want to replace missing data because it is not affected by outliers. 
+📌Summary 376: today's class started with discussing about confusion matrix (which was also discussed in the last class) for multiple classes. after this we started to discuss about the six cyclic steps in exploratory data analysis which includes business understanding, data understanding, data preparation, modelling, evaluation and deployment where data understanding was discussed briefly. an example was also discussed. the example constituted of how to check whether the person has diabetes or not. for this, we took some metrics about the patients health like glucose level, body mass index, insulin levels and tried to find out their distributions. we tried find some relation between these parameters. we also saw outliers in the case of box plots of insulin. if some data is missing, we can either drop it or replace it with the mean or median, but doing this will not always result in something good. incase of parabolic distribution, replacing may cause an outlier. to avoid this we can use something called as multivariate data imputation where the closest value is chosed. we also looked at an example of an nvidia stock to discuss more about outliers. then we concluded our lecture by saying that median is better than mean when it's comes to replacing that missing data as median is not affected by outliers.
+----------------------------------------------------------------------------------------------------
+👉Pair 31: (Index 581, Index 620) — Similarity: 0.9743
+📌Summary 581: discussion upon logistic regression was taken further ,logistic regression is used to predict binary outcomes (0 or 1). it operates by taking input values, applying weights, adding a bias, and passing the result through a sigmoid function to obtain a probability. training involves adjusting the weights using gradient descent to minimize errors. the likelihood function aids in optimizing weights by maximizing the number of correct predictions. the model's performance is assessed using a confusion matrix, accuracy, precision, and recall. a predicted probability above 0.5 results in an output of 1; otherwise, it is 0.
+
+
+📌Summary 620: logistic regression is a method for predicting binary outcomes (0 or 1). it multiplies inputs by weights, adds a bias, and applies a sigmoid function to get a probability. if the probability is above 0.5, the output is 1; otherwise, it's 0.
+
+the model learns by adjusting weights with gradient descent to minimize errors. a likelihood function helps improve accuracy by optimizing the weights. performance is evaluated using metrics like accuracy, precision, recall, and a confusion matrix. it's commonly used in classification tasks such as spam detection and medical diagnosis.
+
+
+----------------------------------------------------------------------------------------------------
+👉Pair 32: (Index 514, Index 586) — Similarity: 0.9740
+📌Summary 514: we began the class with logistic regression and calculating weights of parameters in order to maximize likelihood of predicted outcomes being equal to targets. if t=1 we maximize p and if t=0 we maximize 1-p. maximizing likelihood simply means minimizing error. since there are product terms which are difficult to work with we take logarithm to get sum. a confusion matrix is created- true negative, true positive, false negative, false positive with the accuracy found using the formula- (true positive+ true negative)/total no. of events, precision defined as true positive/(true positive+true negative), recall as true positive + true negative /total and f1 value as harmonic mean of precision and accuracy
+📌Summary 586: we started with logistic regression and learnt how to calculate the weights. we want to maximize the likelihood of our predicted outcomes being close to the targets. if t=1 we would be maximizing p and if t=0 we would be maximizing (1-p).in order to find w there should be the goals across all the data(i.e. training data=n observations). maximizing likelihood is same as minimizing the error function.since there are product terms and it is difficult to work with those hence we take logarithm so that we get sums.
+we create a confusion matrix:-true negative,false positive,false negative,true positive.
+then we defined some terms:-
+accuracy=(true positive+true negative)/total no. of events
+precision:of the events we have detected how many have we detected correctly 
+recall:of a specific class how many events have we identified correctly
+f1 value-harmonic mean of precision and accuracy(doesn't give false hope unlike accuracy)
+----------------------------------------------------------------------------------------------------
+👉Pair 33: (Index 1, Index 141) — Similarity: 0.9737
+📌Summary 1: in this session, we explored various feature encoding techniques, essential for converting categorical and textual data into numerical representations suitable for machine learning models. initially, we discussed vectorization and one-hot encoding. vectorization is a general approach to transform textual or categorical data into numerical vectors. one-hot encoding specifically converts categorical variables into binary vectors, creating separate columns for each category. this method is widely used in multiclass and multilabel classification problems but can introduce the curse of dimensionality when dealing with variables having many unique categories.
+
+we then examined label encoding and integer encoding. label encoding assigns each categorical class a unique integer value. while this method is straightforward, it implies an ordinal relationship between categories, which may not always be appropriate. integer encoding is particularly useful when the categorical variable represents ordinal data (categories with a meaningful order), as it preserves the inherent ordering.
+
+due to the limitations of one-hot encoding, such as increased dimensionality, we introduced binary encoding (compact encoding). binary encoding efficiently represents multiple categories using fewer columns”for example, just three columns can encode up to eight distinct classes. this approach helps mitigate dimensionality issues while retaining meaningful category distinctions.
+
+additionally, we covered frequency encoding and target encoding. frequency encoding involves assigning each category a numerical value based on its frequency within the dataset. target encoding replaces categories with values derived from the target variable (such as the mean target value for each category), effectively capturing relationships between categories and the outcome variable.
+
+finally, we briefly touched upon methods for converting textual data into numerical vectors through vectorization techniques, setting the stage for deeper exploration in future sessions.
+
+📌Summary 141: feature encoding techniques
+
+during this session, we reviewed several techniques used to transform categorical data into numeric representations, which is an essential step in getting data ready for machine learning models. the discussion began with the introduction to feature encoding techniques such as vectorization techniques and utilization of one-hot encoding, label encoding, integer encoding, binary encoding, frequency encoding, and target encoding.
+
+one-hot encoding:
+one-hot encoding converts categorical features into vector where each category has a separate column. one-hot encoding is particularly helpful when encoding the input features (x) in the case of multiclass or multilabel problems. one-hot encoding is less ideal for encoding target variables (y). one of the primary disadvantages of one-hot encoding is that it can cause the curse of dimensionality. for example, if you have a variable such as pincode with thousands of distinct values, applying one-hot encoding will lead to a dimensionality explosion, making the dataset sparse and computationally intensive.
+
+label encoding vs. integer encoding:
+label encoding gives each category a specific integer. the method is well-suited to encoding target variables (y), especially for classification tasks, but may not be suitable for input features where the model may mistake the numerical ordering as an ordinal relationship. on the other hand, integer encoding is used when the target variable is naturally ordinal instead of nominal, such that the order of the categories holds important meaning.
+
+binary encoding:-
+binary encoding, or pseudo one-hot encoding, offers a more compact representation compared to one-hot encoding. by converting categorical values into binary code, a few columns (for example, three columns) can represent multiple classes (up to eight classes in this example). this method helps mitigate the issue of high dimensionality while preserving the distinctiveness of each category.
+
+frequency encoding:
+frequency encoding substitutes each class with its frequency in the dataset. while it reduces the representation, it is not necessarily good for target variables because two classes can have the same frequencies, causing possible loss of useful information.
+
+target encoding:
+target encoding allocates to each category the target variable's mean for that category. target encoding can be especially useful when there is high correlation between the target variable and the categorical feature. however, caution needs to be exercised to prevent data leakage while training the model.
+
+simplification strategies:
+tackling complicated regression questions by converting them into classification questions using methods such as feature binning is common. also introduced briefly was converting text into numeric vectors through vectorization methods as a key step in handling unstructured data.
+
+in general, the suitable encoding method is determined by the type of data, if the variable is utilized as a feature or target, and possibly the effect it may have on dimensionality. every approach has its strengths and weaknesses, and the proper choice is critical to constructing efficient and effective machine learning models.
+----------------------------------------------------------------------------------------------------
+👉Pair 34: (Index 335, Index 620) — Similarity: 0.9735
+📌Summary 335: logistic regression is a binary classification method that predicts outcomes as either 0 or 1. the model's performance is assessed using metrics like accuracy, precision, recall, and the confusion matrix.
+it is trained by optimizing weights through gradient descent, minimizing errors, and using the likelihood function to improve predictions. the model processes input features by multiplying them with weights, adding a bias, and applying a sigmoid function to obtain a probability score. if this probability is greater than 0.5, the outcome is classified as 1; otherwise, it is 0.
+
+
+📌Summary 620: logistic regression is a method for predicting binary outcomes (0 or 1). it multiplies inputs by weights, adds a bias, and applies a sigmoid function to get a probability. if the probability is above 0.5, the output is 1; otherwise, it's 0.
+
+the model learns by adjusting weights with gradient descent to minimize errors. a likelihood function helps improve accuracy by optimizing the weights. performance is evaluated using metrics like accuracy, precision, recall, and a confusion matrix. it's commonly used in classification tasks such as spam detection and medical diagnosis.
+
+
+----------------------------------------------------------------------------------------------------
+👉Pair 35: (Index 56, Index 540) — Similarity: 0.9735
+📌Summary 56: analyzing the entire population to understand its behavior/characteristics is not feasible both “ time wise and money wise. so, we make use of (representative) samples.
+
+attributes
+attributes associated with samples as well as population are:
+1.	count (frequency)
+2.	mode
+3.	mean
+4.	standard deviation
+5.	variance, and many others
+operations
+operations associated with samples as well as population are:
+1.	count
+2.	add
+3.	subtract
+4.	multiply
+5.	divide and many others
+
+using a sample, we can estimate the mean of the population.
+attributes associated with the population are known as parameters while those associated with the sample as statistics.
+we want to estimate the parameters based on the statistics.
+
+simple linear regression has only one predictor.
+
+y is the response variable/dependent variable/label
+x is the predictor variable/independent variable/feature
+
+on a scatter plot in which it looked like the points were scattered on the surface of a circular disc. then he pointed out a few things, which are:
+1.	simple linear regression is not required in such cases.
+2.	it would not be the best possible method in such cases.
+3.	but if someone wants to apply it, then it can be applied.
+4.	in such a case a point is a better approximation than a line, this can be understood by taking any value of the feature (x) and then by looking at the difference in its actual value at that x and the predicted value.
+5.	each point can be considered as a model “ although a very naã¯ve one.
+
+bias - value of the y “ intercept in the equation obtained by simple linear regression.
+
+as the size of the sample which we are using to estimate the population parameters increases the estimates become better.
+
+estimation interval or confidence interval, finding î²0 and î²1 was just the start of machine learning. we need to take into account the error that would be there in our estimation. we have no basis to say that î²0 = î²0p.
+
+confidence interval which is that with a% probability we can say that the parameter value will lie in an interval, that interval is known as confidence interval. typically, confidence intervals are of 90% or 95% and sometimes even 99%. 100% confidence interval is the interval from -infinity to +infinity.
+
+options : 
+1.	minimize sum of all ei
+2.	minimize the sum of squares of all ei.
+3.	minimize the sum of perpendicular distance between all pairs of {(xi,,yi) and (xi,yi-bar)}.
+4.	minimize the sum of absolute value of all ei.
+here ei = yi “ (yi-bar)    
+(1) is rejected (4) is rejected because we don't want our solutions to be biased towards any direction so we choose (2).
+a professor sir/ma'am has done (3).
+
+
+📌Summary 540: sir started with the topic œpopulation vs. sample. sample should be good and representative. probably the two should mean the same thing. using the sample we predict/estimate certain characteristics of the population. 
+analysing the entire population to understand its behaviour/characteristics is not feasible both “ time wise and money wise. so, we make use of (representative) samples.
+attributes
+attributes associated with samples as well as population are:
+1.	count (frequency)
+2.	mode
+3.	mean
+4.	standard deviation
+5.	variance, and many others
+operations
+operations associated with samples as well as population are:
+1.	count
+2.	add
+3.	subtract
+4.	multiply
+5.	divide and many others
+then sir asked us to make a table which contains attributes and operations associated with each of the four levels of measurement.
+
+using a sample, we can estimate the mean of the population.
+attributes associated with the population are known as parameters while those associated with the sample as statistics.
+we want to estimate the parameters based on the statistics.
+sir then showed us a scatter plot (between sales and advertising expenditure) and presented a case of simple linear regression. simple linear regression has only one predictor.
+y is the response variable/dependent variable/label
+x is the predictor variable/independent variable/feature
+sir was then showing us a scatter plot in which it looked like the points were scattered on the surface of a circular disc. then he pointed out a few things, which are:
+1.	simple linear regression is not required in such cases.
+2.	it would not be the best possible method in such cases.
+3.	but if someone wants to apply it, then it can be applied.
+4.	in such a case a point is a better approximation than a line, this can be understood by taking any value of the feature (x) and then by looking at the difference in its actual value at that x and the predicted value.
+5.	each point can be considered as a model “ although a very naã¯ve one.
+
+now sir started talking about bias which is the value of the y “ intercept in the equation obtained by simple linear regression. he said bias is the net some of all un-accounted variables. so, if we develop such a model in which we have taken into account all the variables which affect the dependent variable (y) then we would obtain an equation which would pass through the origin. 
+
+then he said that as the size of the sample which we are using to estimate the population parameters increases the estimates become better. think of this by thinking that if the entire population is the sample, then the estimates would be exactly equal to the parameters, if we decrease the size of this sample by some amount then the new estimates would be lesser good estimates than they were previously. now keeping on decreasing the size of the sample and think about the estimates' reliability (it decreases). prediction error would increase.
+
+then sir talked about estimation interval or confidence interval. he said that finding î²0 and î²1 was just the start of machine learning. we need to take into account the error that would be there in our estimation. we have no basis to say that î²0 = î²0p.
+then he gave the definition of confidence interval which is that with a% probability we can say that the parameter value will lie in an interval, that interval is known as confidence interval. typically, confidence intervals are of 90% or 95% and sometimes even 99%. 100% confidence interval is the interval from -infinity to +infinity.
+then sir talked about how to define the best fit line. now there were four options:
+1.	minimize sum of all ei
+2.	minimize the sum of squares of all ei.
+3.	minimize the sum of perpendicular distance between all pairs of {(xi,,yi) and (xi,yi-bar)}.
+4.	minimize the sum of absolute value of all ei.
+here ei = yi “ (yi-bar)    
+(1) is rejected (4) is rejected because we don't want our solutions to be biased towards any direction so we choose (2).
+a professor sir/ma'am from iit kanpur has done (3).
+now refer sir's linear regression derivation and from there we see that the equation of the line that is obtained after (2) is such that the point made up of the mean of the labels and features lies on that line.
+now for more notes about this class refer class notes, sir's lecture notes and simple linear regression proof. 
+it would be better if one read them from these 3 places.
+----------------------------------------------------------------------------------------------------
+👉Pair 36: (Index 168, Index 214) — Similarity: 0.9735
+📌Summary 168: we began by looking at a closed-form solution in multiple linear regression, which proved to be impractical because of complexities of inversion of matrices and multicollinearity. at feature selection, we introduced removal of features where the p-value is greater than 0.05, meaning they contribute minimally to the model. we then looked into data training and testing, which for example, should be split 80-20 after exploratory data analysis. we also evaluated the râ² values of both the training and testing datasets in order to observe potential overfitting, and the model's generalization towards the population was assured. also discussed was the concept of adjusted râ², multiple r, and why it only has (n-1) degrees of freedom in tss.
+📌Summary 214: we started by going over the closed-form solution in multiple linear regression, which isn't very practical because it requires matrix inversion and also runs into issues with multicollinearity. then we talked about feature selection, where we remove features with a p-value greater than 0.05 because they don't really add value to the model. after that, we got into training and testing data. usually, we split the data 80-20%, doing it randomly after exploratory data analysis. we also checked whether the r-squared values for both the training and testing datasets are close to each other, since if they aren't, we might be dealing with overfitting. the goal is for the model to generalize well and represent the population. finally, we covered adjusted r-squared, multiple r, and why there's only n-1 degrees of freedom in the total sum of squares (tss).
+----------------------------------------------------------------------------------------------------
+👉Pair 37: (Index 575, Index 588) — Similarity: 0.9731
+📌Summary 575: we started with pivot tables in excel. we learned how pivot tables help to summarize large collections of data by grouping and totaling values. we learned how to create a pivot table in excel, drag and drop fields, and calculate measurements like sum, average, count, and percentages to effectively analyze data.
+
+then we moved on to other eda (exploratory data analysis) methods. we talked about how summary statistics like mean, median, variance, and standard deviation give an idea of the data. we also covered visualization methods like histograms, box plots, and scatter plots to identify trends, skewness, and outliers.
+
+lastly, we touched on how data issues like class imbalance could impact analysis. when one of the classes significantly outweighs all the rest, it can skew results. we also did a quick overview of feature engineering and transformation, which are utilized to assist in improving data quality before analysis.
+📌Summary 588: our first focus was on pivot tables in excel, and how they assist in summarizing datasets by sorting and grouping values. we learned how to build the pivot tables, how to set fields by dragging and dropping, and how to calculate totals, averages, count etc in order to analyze data .
+
+then we studied different eda techniques. we calculated summary statistics such as mean and median, variance, and standard deviation in order to understand the data's distribution. we also studied some tools of visualization like histograms, box plots, and scatter plots to see how they help to show patterns and shapes of distribution and outliers within a dataset.
+
+we also discussed the analysis issue where one category of class dominates the other. lastly, we touched upon feature engineering and data transformation techniques that are needed to improve data quality before any further analysis is performed.
+----------------------------------------------------------------------------------------------------
+👉Pair 38: (Index 52, Index 294) — Similarity: 0.9725
+📌Summary 52: we talked about the plan for the remaining 10 lectures and the group project.
+
+started the class by learning about function encoding.
+
+saw how to change categories like red, blue, green into a function with three variables.
+
+there are two types of problems: multiclass and multilabel, and the approach depends on that.
+
+learned about binary encoding, which is a very compact way to encode data.
+
+discussed how to convert data using binary encoding in detail.
+
+frequency encoding replaces category values with how often they appear in the dataset.
+
+in target encoding, category values are replaced by the average score above 2.5.
+
+other encoding methods include label encoding, one hot encoding, and image encoding.
+
+
+📌Summary 294: discussed about the plan for the next remaining 10 lectures and about group project, learnt about function encoding in the start of class. saw an example of converting y(red, blue, green) with three column to be encoded to a function f(x) with three variables y1, y2, y3. there are two types of problems multiclass and multilabel, based on that we can have the approach ahead. then we saw binary encoding which results in a very compact encoding. we learnt that conversion in detail, how to get the answer. frequency encoding is in which we replace the category values with it's frequency it occurs in dataset. in target encoding, all the r values in the column are replaced by average calculated score above 2.5 in this case. other methods are like label encoding, one hot encoding, image encoding, etc. then we saw feature binning with an example of random spread of data. how to process test data. 
+----------------------------------------------------------------------------------------------------
+👉Pair 39: (Index 320, Index 542) — Similarity: 0.9725
+📌Summary 320: roc curves, which depict true positives against false positives at different threshold values, were the subject of our exploration today. we discovered that the classifier's performance decreased with a flatter curve. while the false positive rate continues to rise, a flat curve suggests that the classifier is making a large number of inaccurate predictions and that raising the threshold has no discernible effect on the true positive rate. the low auc (area under the curve) score in these situations further supports subpar performance. since the diagonal line (y = x) reflects random guessing, a successful classifier should ideally have an auc well above 0.5. the graph's area above this line shows improved categorization outcomes.
+📌Summary 542: we analyzed different types of roc curves today. an roc curve charts the true positive rate against the false positive rate for classifying instances at different threshold levels. we established that a curve that is flat signifies that the classifier performs poorly. the flat curve means that even if the threshold is raised, there will be no significant increase in true positive rates, but the false positive rate will increase. it means that the classifier is overpredicting. during these instances, the auc value is low, meaning that the classifier does not perform well. in most cases, the diagonal line y=x which represents a random classifier and has an auc of 0.5 is weak, therefore, any part of the graph that is above this line represents improved model performance.
+----------------------------------------------------------------------------------------------------
+👉Pair 40: (Index 381, Index 447) — Similarity: 0.9724
+📌Summary 381: variance inflation factor (vif)
+purpose: detects and addresses multicollinearity among independent features.
+process: involves an iterative approach to select independent features by evaluating their correlation.
+key consideration: it's crucial to justify the chosen threshold for vif, as it determines the level of multicollinearity deemed acceptable.
+principal component analysis (pca)
+core idea: reduces dimensionality by transforming data into new axes (principal components) that capture the maximum variance.
+principal components: components like pc1, pc2, etc., are ranked by the amount of variance they explain.
+loadings: represent the contribution of original features to each principal component.
+preprocessing: data normalization is essential before applying pca to ensure accurate results.
+trade-off: while pca reduces dimensions, it often sacrifices interpretability of the original features.
+visualization: pc1 vs. pc2 plots are commonly used to visualize high-dimensional data in a 2d space.
+role in eda: pca is a valuable tool in exploratory data analysis for uncovering patterns and simplifying data.
+comparison of vif and pca
+order of application: vif should be used first to remove multicollinearity among features.
+pca's role: while pca effectively reduces dimensions, it can obscure the interpretability of the original variables.
+t-distributed stochastic neighbor embedding (t-sne)
+purpose: a visualization technique for projecting high-dimensional data into two or three dimensions.
+methodology: utilizes t-distribution and gradient descent to map data points while preserving local relationships.
+limitations: computationally intensive, non-deterministic (results may vary), and less consistent compared to other methods.
+mechanism: constructs a probability distribution to represent the proximity of points in high-dimensional space, then reduces dimensions while maintaining these relationships.
+applications: particularly useful for classification and clustering tasks, as it emphasizes differences between data points.
+📌Summary 447: we want to minimize the number of features to counteract the curse of dimensionality. variance inflation factor (vif) assists in identifying multicollinearity between independent variables and needs to be run prior to principal component analysis (pca), as pca does not eliminate redundancy but projects the feature space. r-square quantifies the amount of variance explained by the model but does not reveal multicollinearity. there is a compromise between the number of features and r-square”increasing the number of features can increase r-square but at the cost of instability. pca, which is an application of singular value decomposition (svd), is a dimensionality reduction technique that creates principal components (pcs) that are orthogonal and ordered by variance explained. the first pc explains the most variance, followed by the rest of the pcs. this conversion enables dimensionality reduction of a multi-dimensional data set to fewer dimensions (e.g., reducing a 2d problem to 1d). pca, however, diminishes interpretability, as "what-if" analysis is not possible because pcs are mathematical abstractions and not actual features.it is mostly used for dimensionality reduction, predictive modeling, and visualization in exploratory data analysis (eda) to decide between ordinary regression and pca regression. while pca is good at reducing high-dimensional data, it is at the expense of interpretability as it complicates the linking of predictions to original variables. another dimensionality reduction method, t-distributed stochastic neighbor embedding (t-sne), differs from pca in that it uses a probabilistic approach rather than a linear transformation. t-sne constructs a probability distribution for each point, estimating the proximity to others with gaussian normal distribution at high dimensions and t-distribution at low dimensions in an attempt to preserve similarities of nearby points. t-sne is particularly useful in projecting raw high-dimensional data into labeled clusters for better visual and comprehendible purposes.
+----------------------------------------------------------------------------------------------------
+👉Pair 41: (Index 320, Index 440) — Similarity: 0.9722
+📌Summary 320: roc curves, which depict true positives against false positives at different threshold values, were the subject of our exploration today. we discovered that the classifier's performance decreased with a flatter curve. while the false positive rate continues to rise, a flat curve suggests that the classifier is making a large number of inaccurate predictions and that raising the threshold has no discernible effect on the true positive rate. the low auc (area under the curve) score in these situations further supports subpar performance. since the diagonal line (y = x) reflects random guessing, a successful classifier should ideally have an auc well above 0.5. the graph's area above this line shows improved categorization outcomes.
+📌Summary 440: we studied different types of roc curves today, which depict the relationship between true positives and false positives at various thresholds. the classifier's performance deteriorated the more the curve is flat. a flat roc curve indicates that the model is consistently mispredicting at higher rate because there is no effect on the true positive when the threshold is increased but the false positive keeps increasing. in these settings, the low auc value offers additional justification for the classifier failure. any part of the curve that customarily exceeds the diagonal x=y line represents a better model because it had a value of auc of 0.5.
+
+
+----------------------------------------------------------------------------------------------------
+👉Pair 42: (Index 70, Index 526) — Similarity: 0.9718
+📌Summary 70: we looked at three ways to improve the quality of results: improving the sample, improving the method, and fine-tuning existing methods. from there, we moved on to multiple linear regression (mlr) for nonlinear cases, where we used feature engineering to add polynomial terms like  and trigonometric functions like . this led us to polynomial regression. we noticed that as we added more terms, adjusted  tended to drop, and only the most significant terms remained based on p-values.
+
+we also explored forward and backward feature selection and the risk of overfitting. when dealing with nonlinear models that combine trigonometry and linear elements, we considered whether a single model could handle both instead of relying on separate approaches. random forest turned out to be a method that naturally does this by combining different models.
+
+along the way, we compared parametric and non-parametric methods, introduced delta analysis, and briefly touched on neural networks and deep learning, particularly models with multiple hidden layers. finally, we wrapped up with classification, covering regression vs. logistic regression, the concept of weights, and the sigmoid function, including its graphs and explanations.
+
+
+📌Summary 526: today we learned that there are three ways to improve the quality of results: improving the sample, improving the method, and fine-tuning the method. then, we moved on to understanding mlr for non-linear cases. we used feature engineering by adding more terms, like polynomials and trigonometric functions which is called polynomial regression. 
+we explored backward and forward feature selection and the problem of overfitting. then, we looked at non-linear examples involving trigonometry and straight lines. instead of using two different models for this, we wanted a single model that could handle both, and random forest turned out to be a good method for this.  we also learned about parametric and non-parametric methods and delta analysis.  we talked about classification, the difference between regression and logistic regression, and started using the term "weights." we also saw graphs and explanations for the sigmoid function.
+----------------------------------------------------------------------------------------------------
+👉Pair 43: (Index 79, Index 223) — Similarity: 0.9718
+📌Summary 79: sir taught exploratory data analysis. he accomplished this by using pivot tables and excel. to gain an understanding of the session summary data set, we examine various elements from the pivot table, such as the mean, median, min, max, stdev, histogram, box plot, summary statistics, and scatter plot.  by doing this, we were able to identify a few outliers whose character values in the summary were noticeably higher than those of the others.  after that, we performed the same eda on a dataset pertaining to a chemical factory, which contained data entered daily for almost six years in 241 columns.finally, tas talked about our e2-submissions and shared their perspectives with us.
+📌Summary 223: in today's lecture, sir explained how to do exploratory data analysis (eda). he used excel and pivot tables to do so. we look at different things like mean, median, min, max, stdev, histogram, box plot, summary statistics, 
+ scatter plot from the pivot table in order to get an idea about session summary data set. using this we were able to get some outliers whose summary's character values were significantly higher than others. then we also did the same eda for different dataset related to chemical plant where there was a data filled in 241 columns on daily basis for around 6 years. there were also some missing entries/outliers. the report on this data based showed that all that 241 columns can be more or less replaced with 17 pcas. at last tas discussed about our e2-submissions and gave us their insights about that.
+----------------------------------------------------------------------------------------------------
+👉Pair 44: (Index 381, Index 399) — Similarity: 0.9718
+📌Summary 381: variance inflation factor (vif)
+purpose: detects and addresses multicollinearity among independent features.
+process: involves an iterative approach to select independent features by evaluating their correlation.
+key consideration: it's crucial to justify the chosen threshold for vif, as it determines the level of multicollinearity deemed acceptable.
+principal component analysis (pca)
+core idea: reduces dimensionality by transforming data into new axes (principal components) that capture the maximum variance.
+principal components: components like pc1, pc2, etc., are ranked by the amount of variance they explain.
+loadings: represent the contribution of original features to each principal component.
+preprocessing: data normalization is essential before applying pca to ensure accurate results.
+trade-off: while pca reduces dimensions, it often sacrifices interpretability of the original features.
+visualization: pc1 vs. pc2 plots are commonly used to visualize high-dimensional data in a 2d space.
+role in eda: pca is a valuable tool in exploratory data analysis for uncovering patterns and simplifying data.
+comparison of vif and pca
+order of application: vif should be used first to remove multicollinearity among features.
+pca's role: while pca effectively reduces dimensions, it can obscure the interpretability of the original variables.
+t-distributed stochastic neighbor embedding (t-sne)
+purpose: a visualization technique for projecting high-dimensional data into two or three dimensions.
+methodology: utilizes t-distribution and gradient descent to map data points while preserving local relationships.
+limitations: computationally intensive, non-deterministic (results may vary), and less consistent compared to other methods.
+mechanism: constructs a probability distribution to represent the proximity of points in high-dimensional space, then reduces dimensions while maintaining these relationships.
+applications: particularly useful for classification and clustering tasks, as it emphasizes differences between data points.
+📌Summary 399: in this session, we explored the variance inflation factor (vif) and principal component analysis (pca), focusing on their applications, differences, and use cases.
+
+variance inflation factor (vif):
+
+used to detect multicollinearity among features.
+computed as 
+vif=1/1-r^2, where r^2 is obtained by regressing a feature against all others.
+a vif threshold of 10 (corresponding to r^2 = 0.9) is commonly used for feature elimination.
+preserves real-world features, making it suitable for sensitivity analysis and interpretability in models.
+
+principal component analysis (pca):
+
+transforms features into new uncorrelated components (pcs) ranked by variance.
+pc1 > pc2 > pc3 in terms of variance captured, with a decreasing trend in the explained variance graph.
+common applications include dimensionality reduction, data visualization (e.g., pc1 vs. pc2 plots), and prediction modeling.
+requires normalization to ensure fair variance contribution from all features.
+unlike vif, pca does not retain original features, making sensitivity analysis difficult.
+
+comparison:
+
+vif works in feature space, removing redundant variables while keeping real-world interpretability.
+pca creates mathematical features, making it more suitable for dimensionality reduction rather than feature selection.
+vif is often preferred over pca when feature interpretability is essential.
+
+additionally, the emnist dataset was mentioned as an example for handwritten digit classification using pca.
+
+t-sne:  t-sne is a non-linear dimensionality reduction technique primarily used for visualizing high-dimensional data in a lower-dimensional space (typically 2d or 3d). 
+
+how t-sne works:
+measures similarity in high dimensions:
+computes the probability that two points are neighbors in the original high-dimensional space using a gaussian distribution.
+maps data to lower dimensions:
+assigns similar points in a lower-dimensional space using a student's t-distribution, ensuring that points that were close in high-dimensional space remain close.
+optimizes for local structure:
+unlike pca (which captures global variance), t-sne preserves local neighborhoods, making it great for cluster visualization.
+----------------------------------------------------------------------------------------------------
+👉Pair 45: (Index 55, Index 185) — Similarity: 0.9714
+📌Summary 55: ds 203 15 january, 2025 (3rd lecture)
+sir started by talking about y = f(x). he first talked about old and new methods of data analysis. for this he took the example of finding the temperature difference between the two ends of a pipe using the flow rate of the fluid flowing inside the pipe. y was the temperature difference denoted by delta-t and x was the flow rate.
+in the old methods we used to get the equation relating y = f(x) like dt = l23, while in the new methods we get data points and obtain a plot of the curve which relates temperature difference with the corresponding flow rate.
+then he talked about the methods that we use for obtaining the plot which are:
+1.	slr “ simple linear regression
+2.	mlr “ multiple linear regression
+3.	logistic regression
+4.	random forest
+he also mentioned k-means clustering and hierarchical clustering.
+then he said that there are two paths which are machine-learning and the other one is statistics, in this course we would frequently move from one path to another to get the assigned task done.
+he then started talking about levels of measurement. there are four levels of measurement:
+1.	nominal (discrete): for example, gender, color, etc. 
+to explain, in this if two people have different gender no one is superior the other, all of them are equal.
+2.	ordinal (discrete): for example, grades
+but now how would the computer identify these (here, gender) as distinct because we need to associate some number with each grade for the computer to recognize them.
+but if we assign numbers like male -1, female-2 and so on then we are doing something that is fundamentally wrong because we are attaching higher value to one of the them whereas, they should be equal.
+in order to take care of this issue we use vectors and use them as a switch. it would be difficult to show that it here but sir has drawn that very nicely in his notes (uploaded on moodle).
+example: dog [1 0 0 0]
+3.	interval (continuous) for example, temperature
+sir said that scale on which we are measuring will not create any issues.
+4.	ratio (continuous) for example, height, weight, salary
+y is known as label and x is known as feature.
+supervised and unsupervised learning problems
+a problem in which we know both the values of the label and the features is known as supervised learning problem.
+
+then sir defined a function 
+monthly-purchases = f (salary, month of year, size of family, etc.)
+then he talked about the ml categories about each of the level of measurement: 
+nominal “ classification
+ordinal “ classification
+interval “ regression
+ratio “ regression
+then he talked about unsupervised learning in which we don't know the value of labels associated with features.
+there is hierarchical and k-means clustering. then he explained clustering by using a graph between features.
+it is difficult to explain the flow chart (on page 9) in sir's notes but it is quite clear by looking at the flow chart.
+
+we take a representative sample out of the population in order to save time and money for data analysis.
+larger the value of the population more accurate is the prediction.
+📌Summary 185: sir started by talking about y = f(x). he first talked about old and new methods of data analysis. for this he took the example of finding the temperature difference between the two ends of a pipe using the flow rate of the fluid flowing inside the pipe. y was the temperature difference denoted by delta-t and x was the flow rate.
+
+in the old methods we used to get the equation relating y = f(x) like dt = l23, while in the new methods we get data points and obtain a plot of the curve which relates temperature difference with the corresponding flow rate.
+
+there are 4 level of measurements: 
+
+1. nominal (discrete) - no ordering in this level of measurements , no calculated value associated with it. ml category - classification 
+
+2. ordinal (discrete) - they have a sequence and associating a number to nominal and ordinal is not correct. ml category - classification  
+we have to encode the names as vectors like dog [ 1 0 0 0 ] , cat [ 0 0 0 1 ] 
+
+3. interval(continuous)-for eg 5 and 10 degree celsius like we don't have, since the concept of reference matters. in case of this , we have 0 has arbitrary defined . ml category - regression 
+
+4. ratio (continuous) - since the concept of reference matters. in case of this , we have 0 has arbitrary defined. ml category - regression 
+
+when we have both labels and features then - supervised learning
+with only features we have then - unsupervised learning 
+
+y = f(x) y - label and x - features 
+
+(monthly purchases)  = f(salary, family size, ...........) 
+
+types :
+ 
+1. simple linear regression 
+2. multiple regression
+3. polynomial regression 
+4. random forest 
+5. multiple regression 
+
+y = f(x)
+
+no labels  -- "unsupervised learning"
+	           --  k-mean clustering 
+	           --  hierarchical clustering
+
+we have population inside which we have sample and no matter how large the size of data is it is always taken as sample . 
+
+larger the size of the population more accurate prediction .
+
+then he talked about unsupervised learning in which we don't know the value of labels associated with features .
+----------------------------------------------------------------------------------------------------
+👉Pair 46: (Index 381, Index 482) — Similarity: 0.9713
+📌Summary 381: variance inflation factor (vif)
+purpose: detects and addresses multicollinearity among independent features.
+process: involves an iterative approach to select independent features by evaluating their correlation.
+key consideration: it's crucial to justify the chosen threshold for vif, as it determines the level of multicollinearity deemed acceptable.
+principal component analysis (pca)
+core idea: reduces dimensionality by transforming data into new axes (principal components) that capture the maximum variance.
+principal components: components like pc1, pc2, etc., are ranked by the amount of variance they explain.
+loadings: represent the contribution of original features to each principal component.
+preprocessing: data normalization is essential before applying pca to ensure accurate results.
+trade-off: while pca reduces dimensions, it often sacrifices interpretability of the original features.
+visualization: pc1 vs. pc2 plots are commonly used to visualize high-dimensional data in a 2d space.
+role in eda: pca is a valuable tool in exploratory data analysis for uncovering patterns and simplifying data.
+comparison of vif and pca
+order of application: vif should be used first to remove multicollinearity among features.
+pca's role: while pca effectively reduces dimensions, it can obscure the interpretability of the original variables.
+t-distributed stochastic neighbor embedding (t-sne)
+purpose: a visualization technique for projecting high-dimensional data into two or three dimensions.
+methodology: utilizes t-distribution and gradient descent to map data points while preserving local relationships.
+limitations: computationally intensive, non-deterministic (results may vary), and less consistent compared to other methods.
+mechanism: constructs a probability distribution to represent the proximity of points in high-dimensional space, then reduces dimensions while maintaining these relationships.
+applications: particularly useful for classification and clustering tasks, as it emphasizes differences between data points.
+📌Summary 482: vif (variance inflation factor)
+purpose: vif is used to detect multicollinearity in regression models.
+process: we progressively removed values of ei (likely referring to certain features or variables).
+outcome: the test was conducted in code 2, and it helped in removing extra features.
+
+bca (principal component analysis)
+principal components (pc):
+  principal components are orthogonal, meaning they are uncorrelated.
+  the maximum number of components is equal to the number of dimensions in the original dataset.
+
+variance explained by components:
+  the first principal component (pc1) explains most of the variance in the data.
+  the second principal component (pc2) explains the next largest portion of the variance, and so on.
+
+loadings:
+  if pc1 is a linear combination of original features, say c1x1 + c2x2 + c3x3, the parameters c1, c2, c3 are called loadings.
+  the loading values indicate the strength of influence that each variable has on the component. for example, if c3 is large for pc1, then x3 (the original variable) greatly influences the variance explained by pc1.
+
+multicollinearity:
+  vif is typically calculated first to detect and address multicollinearity, which can be an issue in regression models.
+
+loss of interpretability with pca:
+  one downside of pca is that it loses interpretability. for instance, if x1 is a known parameter, we cannot easily quantify how changes in x1 will affect the result after applying pca.
+
+uses of pca:
+  dimension reduction: pca helps reduce the number of variables, making the data easier to handle.
+  prediction models: pca can be used to create more efficient predictive models.
+  visualization: pca is often used for visualizing high-dimensional data by reducing it to two or three dimensions.
+
+choosing between models:
+  there is a choice between using y = fx (where f is a matrix of features) or using y = pcs (principal components).
+  it is generally better to normalize the data before performing pca to ensure that all features are treated equally in terms of their influence on the components.
+
+mnist dataset and normalization
+normalization importance:
+  pca on the mnist dataset highlighted the importance of normalizing the data. normalization ensures that all features contribute equally to the principal components.
+
+t-sne (t-distributed stochastic neighbor embedding)
+overview: t-sne is a lossy transformation technique that is commonly used for dimensionality reduction and visualization, particularly for high-dimensional data.
+
+methodology:
+  t-sne uses gradient descent and stochastic methods.
+  step 1: create a probability distribution for each observation in the dataset.
+  more accurately, we calculate a distribution that represents the distance between each point and every other point in the dataset.
+  hence, there are n x n distributions, where n is the number of data points.
+
+why t-distribution:
+  a t-distribution is used because it is flatter compared to a normal distribution, making it more sensitive to long-distance points. this helps in maintaining the relationships between distant points.
+
+goal: the goal of t-sne is to minimize the kullback-leibler (kl) divergence, which measures the difference between the original high-dimensional probability distribution and the low-dimensional projection.
+
+----------------------------------------------------------------------------------------------------
+👉Pair 47: (Index 250, Index 509) — Similarity: 0.9703
+📌Summary 250: when working with data...we almost never have access to the entire population”just a sample, which we call a dataset, but when training a model, we don't use the whole dataset....instead, we randomly split it...about 80% for training and 20% for testing.....the test set helps us compare different models and see how well they perform on new data.
+
+multiple r (the square root of r^2) tells us how strongly the independent and dependent variables are related.....in linear regression, we can have multiple input variables (features) and even multiple outputs, which means we often solve the problem using matrices.
+
+when analyzing variance, we want to know how much each independent variable contributes. the concept of degrees of freedom comes into play here”since we use the sample mean, we effectively lose one degree of freedom. because both ssr (sum of squares for regression) and sst (total sum of squares) involve the mean, we adjust for this in the formula for adjusted râ²:
+
+adjusted r^2 = 1 - ((ssr/(n-k-1))/(sst/(n-1)))
+
+quantile-quantile (qq) plot tells us how close distribution is to normal distribution, ideal plot is y=x.
+
+
+📌Summary 509: practically we never have whole population data, we only have a sample data (called dataset). we should never use complete sample data to train the model rather only around 80% of data randomly, rest 20% is used to test and compare different models developed for the task.
+multiple r = sqrt(r^2), this is a metric which tells us some kind of correlation between independent and dependent variables.
+in general linear regression, we could have multiple features and even multiple outputs which have matrix form solution.
+we want to know variance captured per independent variable(degree of freedom). if we know sample mean then we require one less sample so degree of freedom reduces. we use sample mean in both ssr and sst so when we adjust them with degree of freedom and use them in r^3 formula, it is called adjusted r^2.
+adjusted r^2 = 1 - ((ssr/(n-k-1))/(sst/(n-1)))
+
+quantile-quantile (qq) plot tells us how close distribution is to normal distribution, ideal plot is y=x.
+----------------------------------------------------------------------------------------------------
+👉Pair 48: (Index 167, Index 539) — Similarity: 0.9702
+📌Summary 167: today's class start with a question that we have only 1 sample (eg 30 observations) so, how to estimate population mean based only on 1 sample ? is it possible. one interesting thing that when errors become predictive then it is not a regression model. whatever the distribution of sample could be -> when we take their multiple sample then we always get normal distribution. let's suppose we have sample from a population then first step would be calculate the mean and(assume this mean is close to the population mean). if it is close to the population mean then sampling distribution of the mean is close normal distribution with mean and variance. the formula for calculating standard deviation of the sampling distribution of means is standard deviation of the population /root under number of observations in sample. further ahead we have learnt about the confidence interval which is basically the area under curve. for 95% confidence, the area under curve is 0.95 and for the observations that doesn't lie in this region is 0.025 each of side. one more important thing what we learnt that if number of observations is less than 30 then we do not get normal distribution and we use t distribution which is basically a continuous probability distribution that generalizes the standard normal distribution. the 95% confidence interval practically means that if we take 100 samples the mean of 95 of those samples will lies between that area. in the equation y=b0 + b1x if b1 is statistically equal to zero then we don't get any regression. if p- value < 0.05 then value of b1 is accepted and p-value also helps in the selection of the features. in the last minutes we also talked about the multiple linear regression which is a statistical technique that uses multiple independent variables to predict the value of a dependent variable and anova -> which is used to compare statistically equivalence of "multiple averages" simultaneously. the equation for mlr is y=b0 + b1x1 + b2x2 + b3x3 ....and if atleast on of coefficient is not zero then regression is possible. f-statistic = msr/mse.
+📌Summary 539: in today's class, we begin with a question that we have only‚1 sample, e.g., 30 observations, so how do you estimate the population mean based on only 1 sample? is it possible. however,  when errors become predictive then‚it is not a regression model. not it will take normal‚distribution up to the limit of law => universally at a point whatever the sample could be -> as at some threshold of our samples we will always get their multiple samples normal distribution. if we assume that we have obtained a sample from a population, the first thing we would do is calculate the mean and(assume that this mean is similar‚to the population mean).
+
+standard of deviation of the sampling distribution is population/root‚under number of observations. in the next step we studied about confidence interval which is actually the area‚under curve. when we have 95% confidence, auc is 0.95 and the observations lying outside this area are‚0.025 on each side. another interesting point that we also found out was that, if the number of observations is‚less than 30 we do not get normal distribution and the t distribution.
+
+----------------------------------------------------------------------------------------------------
+👉Pair 49: (Index 52, Index 219) — Similarity: 0.9702
+📌Summary 52: we talked about the plan for the remaining 10 lectures and the group project.
+
+started the class by learning about function encoding.
+
+saw how to change categories like red, blue, green into a function with three variables.
+
+there are two types of problems: multiclass and multilabel, and the approach depends on that.
+
+learned about binary encoding, which is a very compact way to encode data.
+
+discussed how to convert data using binary encoding in detail.
+
+frequency encoding replaces category values with how often they appear in the dataset.
+
+in target encoding, category values are replaced by the average score above 2.5.
+
+other encoding methods include label encoding, one hot encoding, and image encoding.
+
+
+📌Summary 219: discussed about the plan for the next remaining 10 lectures and about group project, learnt about function encoding in the start of class. saw an example of converting y(red, blue, green) with three column to be encoded to a function f(x) with three variables y1, y2, y3. there are two types of problems multiclass and multilabel, based on that we can have the approach ahead. then we saw binary encoding which results in a very compact encoding. we learnt that conversion in detail, how to get the answer. frequency encoding is in which we replace the category values with it's frequency it occurs in dataset. in target encoding, all the r values in the column are replaced by average calculated score above 2.5 in this case. 
+----------------------------------------------------------------------------------------------------
+👉Pair 50: (Index 440, Index 459) — Similarity: 0.9702
+📌Summary 440: we studied different types of roc curves today, which depict the relationship between true positives and false positives at various thresholds. the classifier's performance deteriorated the more the curve is flat. a flat roc curve indicates that the model is consistently mispredicting at higher rate because there is no effect on the true positive when the threshold is increased but the false positive keeps increasing. in these settings, the low auc value offers additional justification for the classifier failure. any part of the curve that customarily exceeds the diagonal x=y line represents a better model because it had a value of auc of 0.5.
+
+
+📌Summary 459: today we looked at different types of roc curves.roc curve plots true positive vs false positive at various threshold values.we deduced that flatter the curve is worse is the classifier because a flat curve tells that increasing the threshold does not improve the true positive much but the false positive continues to increase which suggests that the classifier is making a lot of incorrect predictions.in this case the auc value is low which also shows poor performance of classifiers. normally y=x line has aoc value of 0.5 so the portion of the graph that is above the line y=x gives better results.
+----------------------------------------------------------------------------------------------------
+👉Pair 51: (Index 146, Index 242) — Similarity: 0.9701
+📌Summary 146: we resumed where we left off in the previous class, discussing the terms that emerged from our extension (data analysis toolpack). we then examined their terminologies and connections, the meaning of these values, their graphical interpretation, and conclusions along with any associated errors or uncertainties. we examined a few beta and beta 0 examples together with their various particular instance circumstances. among these were the p-value and its fundamental application. additionally, we examined multiple linear regression and how certain of the terms that appeared in our table were primarily pertinent to this type of analysis. additionally, we examined the definition of anova and the concepts it encompasses (f statistic and why it should be large).
+📌Summary 242: we resumed (mainly examining various statistical conditions) from where we left off in the previous class, discussing the terms emerging from our extension (data analysis toolpack), and then explored their interconnections and terminologies, what these values signify, their graphical representation, and conclusions associated with certain errors or uncertainties that accompany them.
+we examined several instances of beta and beta 0, along with their varying specific case conditions.
+we also examined multiple linear regression and noted that several of the terms in our table were primarily significant for this type of regression. we also examined the meaning of the term anova and the related concepts it encompasses (f statistic and the reason for its significance, to be continued in the next session).
+
+----------------------------------------------------------------------------------------------------
+👉Pair 52: (Index 220, Index 570) — Similarity: 0.9701
+📌Summary 220: we learned about the metrics used to check how good a linear regression model is, like sse,râ²,etc. 
+we also have a hands on excel .
+the data we use is just a sample , so the values we calculate for the model, like a and b, are only guesses about the real values for the entire population.
+goal  is to create a model that works well for data outside the sample.
+idea of sampling distributions and confidence intervals. if we take many small samples from the population and find their means, those means would form a normal distribution, even if the population data isn't normally distributed. this is called the central limit theorem (clt). the bigger samples give more accurate results, while smaller samples create more uncertainty. 
+📌Summary 570: today in class, sir talked about the metrics we use to check how good a linear regression model is, like sse,râ²,etc. he said that when we use tools like excel, many more numbers appear, and to understand them, we need to go back to basic statistics. sir explained that the data we use is just a sample (99 observations in this case), so the values we calculate for the model, like a and b, are only guesses about the real values for the entire population. he said our goal is to create a model that works well for data outside the sample.
+sir then explained the idea of sampling distributions and confidence intervals. he said that if we take many small samples from the population and find their means, those means would form a normal distribution, even if the population data isn't normally distributed. this is called the central limit theorem (clt). he also said that bigger samples give more accurate results, while smaller samples create more uncertainty. sir explained that this normal distribution helps us make good guesses about the population, even when we don't know everything about it.
+----------------------------------------------------------------------------------------------------
+👉Pair 53: (Index 479, Index 552) — Similarity: 0.9700
+📌Summary 479: learnt about 4 different levels of measurement:-
+(i)nominal:data is categorized into groups with no ordering.used for discrete data.example:gender,color,etc.
+(ii)ordinal:data is categorised into groups which have ordering.used for discrete data.example:grades
+(iii)interval:data is categorised into groups which have ordering and intervals between consecutive points are measurable but zero has arbitrary meaning.used for continuous data.example:temperature(5â°c is not twice as cold as 10â°c)
+(iv)ratio:data is categorised into groups which have ordering,intervals between consecutive points are measurable and zero has a definite meaning.used for continuous data.example:height,weight
+the machine learning category for both nominal and ordinal is "classification" whereas for interval and ratio it is "regression".
+
+also learnt about y=f(x) where y is label and x contains features.the problems which contain label are called supervised learning problems and the ones which do not contain are unsupervised learning problems in which we use k-means clustering and hierarchial clustering to make labels.
+
+there was one key point made that no matter how large the size of the data is,it is always considered a sample of the population.
+📌Summary 552: in today's class, we discussed levels of measurement for data, which include four types: 1) nominal, 2) ordinal, 3) interval, and 4) ratio. of these, nominal and ordinal are categorical data, while interval and ratio are numerical data.
+
+nominal data has no inherent order among categories. examples include gender and nationality. ordinal data, on the other hand, is categorical with an inherent order but lacks meaningful intervals between categories, such as grades (a, b, c). for nominal and ordinal data, techniques like one-hot encoding or label encoding are used for feature representation. however, one-hot encoding can significantly increase the dimensionality of the dataset.
+
+interval and ratio data are both continuous and numerical. interval data, such as temperature in â°c or â°f, has an arbitrary zero, meaning zero does not represent the absence of the quantity. in contrast, ratio data has an absolute zero, as in the case of temperature in kelvin (0k) or height, where zero indicates the complete absence of the quantity.
+
+we also covered the difference between supervised and unsupervised machine learning. in supervised learning, the target variable (y) is provided, and the goal is to learn a function f that maps input features (x) to the output (y). techniques like linear regression and multiple regression are examples. in unsupervised learning, the target variable is not available, and the focus is on finding patterns in the data, such as clustering based on distance metrics like euclidean distance. examples include k-means and hierarchical clustering.
+
+finally, we discussed the distinction between population and samples. all the data available on the internet represents samples of a larger population. machine learning models are trained on these samples and generalized to the population using proper validation techniques.
+----------------------------------------------------------------------------------------------------
